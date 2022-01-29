@@ -3598,39 +3598,39 @@ var Option = antd__WEBPACK_IMPORTED_MODULE_1__["default"].Option;
 var CashFlowGraph = function CashFlowGraph() {
   // temporary data array
   var data = [{
-    name: "Page A",
-    uv: 4000,
-    pv: 2400,
+    name: "2015",
+    uv: 4500000,
+    pv: 3500000,
     amt: 2400
   }, {
-    name: "Page B",
-    uv: 3000,
-    pv: 1398,
+    name: "2016",
+    uv: 5500000,
+    pv: 3100000,
     amt: 2210
   }, {
-    name: "Page C",
-    uv: 2000,
-    pv: 9800,
+    name: "2017",
+    uv: 4100000,
+    pv: 7500000,
     amt: 2290
   }, {
-    name: "Page D",
-    uv: 2780,
-    pv: 3908,
+    name: "2018",
+    uv: 5000000,
+    pv: 2500000,
     amt: 2000
   }, {
-    name: "Page E",
-    uv: 1890,
-    pv: 4800,
+    name: "2019",
+    uv: 3500000,
+    pv: 5500000,
     amt: 2181
   }, {
-    name: "Page F",
-    uv: 2390,
-    pv: 3800,
+    name: "2020",
+    uv: 7000000,
+    pv: 5500000,
     amt: 2500
   }, {
-    name: "Page G",
-    uv: 3490,
-    pv: 4300,
+    name: "2021",
+    uv: 3500000,
+    pv: 5000000,
     amt: 2100
   }];
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
@@ -3653,7 +3653,7 @@ var CashFlowGraph = function CashFlowGraph() {
   }, "5 Years")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     style: {
       width: "100%",
-      height: 300
+      height: 350
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_2__.ResponsiveContainer, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_3__.LineChart, {
     width: 500,
@@ -3767,7 +3767,7 @@ var CollegesBarChart = function CollegesBarChart() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "d-flex justify-content-between mb-18"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h6", {
-    className: "f-14 fw-600"
+    className: "f-16 fw-600"
   }, "Colleges Cashflow"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "d-flex align-items-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
@@ -3875,7 +3875,7 @@ var FundPieChart = function FundPieChart() {
     react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
       className: "funds-utilization-card primary-card-rounded mt-4"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h6", {
-      className: "f-14 fw-600 mb-4"
+      className: "f-16 fw-600 mb-4"
     }, "Funds Utilization"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_1__.PieChart, {
       width: 300,
       height: 160
@@ -3969,7 +3969,7 @@ var RevenueBarChart = function RevenueBarChart() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "d-flex justify-content-between"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
-    className: "f-16 fw-500 mb-18"
+    className: "f-16 fw-600 mb-18"
   }, "Revenue From Top 10 Countries"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("u", {
     className: "color-secondary f-12 cursor-pointer"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_1__.InertiaLink, {
@@ -4024,15 +4024,17 @@ var SponsersCard = function SponsersCard() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "sponsors-card primary-card-rounded mt-4"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h6", {
-    className: "f-14 fw-600 m-0"
+    className: "f-16 fw-600 m-0"
   }, "Sponsors"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("hr", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "card-content"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "d-flex justify-content-between border-bottom py-2 align-items-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Total Sponsors"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Total ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", {
+    className: "nobr"
+  }), "Sponsors"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "text-end"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "f-16"
+    className: "f-16 fw-600"
   }, "45"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
     className: "f-10 f-color-grey"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
@@ -4046,7 +4048,7 @@ var SponsersCard = function SponsersCard() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Sponsors Funds"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "text-end"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "f-16"
+    className: "f-16 fw-600"
   }, "$4,532,637"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
     className: "f-12"
   }, "Spent $123,312"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
@@ -4054,7 +4056,7 @@ var SponsersCard = function SponsersCard() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Scholarship"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Students")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "text-end"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "f-16"
+    className: "f-16 fw-600"
   }, "150")))));
 };
 
@@ -4121,7 +4123,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var _layout_Index__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../layout/Index */ "./resources/js/layout/Index.jsx");
-/* harmony import */ var antd__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! antd */ "./node_modules/antd/es/select/index.js");
+/* harmony import */ var antd__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! antd */ "./node_modules/antd/es/select/index.js");
 /* harmony import */ var _Assets_icons_bars_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../Assets/icons/bars.svg */ "./resources/js/Assets/icons/bars.svg");
 /* harmony import */ var _Assets_icons_Group_3112_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../Assets/icons/Group 3112.svg */ "./resources/js/Assets/icons/Group 3112.svg");
 /* harmony import */ var _Components_Dashboard_CashFlowGraph__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../Components/Dashboard/CashFlowGraph */ "./resources/js/Components/Dashboard/CashFlowGraph.jsx");
@@ -4129,6 +4131,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Components_Dashboard_CollegesBarChart__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../Components/Dashboard/CollegesBarChart */ "./resources/js/Components/Dashboard/CollegesBarChart.jsx");
 /* harmony import */ var _Components_Dashboard_FundPieChart__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../Components/Dashboard/FundPieChart */ "./resources/js/Components/Dashboard/FundPieChart.jsx");
 /* harmony import */ var _Components_Dashboard_SponsersCard__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../Components/Dashboard/SponsersCard */ "./resources/js/Components/Dashboard/SponsersCard.jsx");
+/* harmony import */ var _TabsComponents_Finance__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./TabsComponents/Finance */ "./resources/js/Pages/Dashboard/TabsComponents/Finance.jsx");
+/* harmony import */ var _TabsComponents_Admissions__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./TabsComponents/Admissions */ "./resources/js/Pages/Dashboard/TabsComponents/Admissions.jsx");
+/* harmony import */ var _TabsComponents_Teachers__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./TabsComponents/Teachers */ "./resources/js/Pages/Dashboard/TabsComponents/Teachers.jsx");
+/* harmony import */ var _TabsComponents_Students__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./TabsComponents/Students */ "./resources/js/Pages/Dashboard/TabsComponents/Students.jsx");
+function _createForOfIteratorHelper(o, allowArrayLike) { var it = typeof Symbol !== "undefined" && o[Symbol.iterator] || o["@@iterator"]; if (!it) { if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e2) { throw _e2; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = it.call(o); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e3) { didErr = true; err = _e3; }, f: function f() { try { if (!normalCompletion && it["return"] != null) it["return"](); } finally { if (didErr) throw err; } } }; }
+
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { var _i = arr == null ? null : typeof Symbol !== "undefined" && arr[Symbol.iterator] || arr["@@iterator"]; if (_i == null) return; var _arr = []; var _n = true; var _d = false; var _s, _e; try { for (_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 
@@ -4139,19 +4158,1242 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var Option = antd__WEBPACK_IMPORTED_MODULE_9__["default"].Option;
+
+
+
+
+
+
+var Option = antd__WEBPACK_IMPORTED_MODULE_13__["default"].Option;
 
 var Index = function Index() {
+  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)("finance"),
+      _useState2 = _slicedToArray(_useState, 2),
+      tab = _useState2[0],
+      setTab = _useState2[1];
+
+  var params = new URLSearchParams(window.location.search);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(function () {
+    var _iterator = _createForOfIteratorHelper(params.values()),
+        _step;
+
+    try {
+      for (_iterator.s(); !(_step = _iterator.n()).done;) {
+        var value = _step.value;
+        setTab(value);
+      }
+    } catch (err) {
+      _iterator.e(err);
+    } finally {
+      _iterator.f();
+    }
+  }, []);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_layout_Index__WEBPACK_IMPORTED_MODULE_1__["default"], {
     currentPage: 0
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, tab === "profile1" ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Profile, null) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "dashboard-wrapper"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "d-flex justify-content-start align-items-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h6", {
-    className: "fw-bold f-18 m-0"
-  }, "Dashboard"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "fw-bold f-22 m-0"
+  }, "All Colleges")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "kiu-tabs mt-md-4 d-flex justify-content-start"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: tab === "finance" ? "kiu-tabs-item active" : "kiu-tabs-item",
+    onClick: function onClick() {
+      return setTab("finance");
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", {
+    className: tab === "finance" ? "active" : "",
+    id: "finance",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "14.105",
+    height: "14.107",
+    viewBox: "0 0 14.105 14.107"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+    id: "Path_619",
+    "data-name": "Path 619",
+    d: "M379.8,8.3V0h-2.111V7.6a4.454,4.454,0,0,1,.863,1.524h2.838V8.3Z",
+    transform: "translate(-367.282)",
+    fill: "#089752"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+    id: "Path_620",
+    "data-name": "Path 620",
+    d: "M128.766,250.322a3.606,3.606,0,1,0,3.606,3.606A3.61,3.61,0,0,0,128.766,250.322Zm0,3.192a1.4,1.4,0,0,1,.413,2.727v.63h-.826v-.63a1.4,1.4,0,0,1-.982-1.332h.826a.569.569,0,1,0,.569-.569,1.4,1.4,0,0,1-.413-2.727v-.63h.826v.63a1.4,1.4,0,0,1,.982,1.332h-.826a.569.569,0,1,0-.569.569Z",
+    transform: "translate(-121.714 -243.426)",
+    fill: "#089752"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+    id: "Path_621",
+    "data-name": "Path 621",
+    d: "M3.75,200.927V198.8H1.639v2.825H.049v.826H2.887A4.453,4.453,0,0,1,3.75,200.927Z",
+    transform: "translate(-0.049 -193.323)",
+    fill: "#089752"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+    id: "Path_622",
+    "data-name": "Path 622",
+    d: "M273.16,66.267h-2.111V70.53a4.405,4.405,0,0,1,2.111.772Z",
+    transform: "translate(-263.583 -64.441)",
+    fill: "#089752"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+    id: "Path_623",
+    "data-name": "Path 623",
+    d: "M166.524,132.533h-2.111v3.21a4.405,4.405,0,0,1,2.111-.772Z",
+    transform: "translate(-159.885 -128.882)",
+    fill: "#089752"
+  })), "Finance"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: tab === "admissions" ? "kiu-tabs-item active" : "kiu-tabs-item",
+    onClick: function onClick() {
+      return setTab("admissions");
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", {
+    className: tab === "admissions" ? "admissions-svg active" : "admissions-svg",
+    id: "id-card_1_",
+    "data-name": "id-card (1)",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "14.5",
+    height: "10.875",
+    viewBox: "0 0 14.5 10.875"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+    id: "id-card_1_2",
+    "data-name": "id-card (1)",
+    d: "M12.838,3H1.661A1.663,1.663,0,0,0,0,4.661v7.552a1.663,1.663,0,0,0,1.661,1.661H12.838A1.663,1.663,0,0,0,14.5,12.213V4.661A1.663,1.663,0,0,0,12.838,3ZM4.531,5.417a1.51,1.51,0,1,1-1.51,1.51A1.513,1.513,0,0,1,4.531,5.417ZM7.25,11.005a.453.453,0,0,1-.453.453H2.266a.453.453,0,0,1-.453-.453v-.3A1.663,1.663,0,0,1,3.474,9.042H5.588A1.663,1.663,0,0,1,7.25,10.7Zm4.984.453H8.911a.453.453,0,1,1,0-.906h3.323a.453.453,0,1,1,0,.906Zm0-2.417H8.911a.453.453,0,0,1,0-.906h3.323a.453.453,0,0,1,0,.906Zm0-2.417H8.911a.453.453,0,0,1,0-.906h3.323a.453.453,0,0,1,0,.906Z",
+    transform: "translate(0 -3)",
+    fill: "#898989"
+  })), "Admissions"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: tab === "teachers" ? "kiu-tabs-item active" : "kiu-tabs-item",
+    onClick: function onClick() {
+      return setTab("teachers");
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", {
+    className: tab === "teachers" ? "active" : "",
+    id: "mortarboard",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "13.723",
+    height: "12",
+    viewBox: "0 0 13.723 12"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+    id: "Path_12",
+    "data-name": "Path 12",
+    d: "M419.4,184.88v-4.268l-.8.268v4a1.265,1.265,0,0,0-.861,1.2v2.153a.4.4,0,0,0,.4.4h1.722a.4.4,0,0,0,.4-.4v-2.153A1.265,1.265,0,0,0,419.4,184.88Z",
+    transform: "translate(-406.538 -176.633)",
+    fill: "#898989"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+    id: "Path_13",
+    "data-name": "Path 13",
+    d: "M100.3,203.333l-3.9-1.3v2.738a.4.4,0,0,0,.118.284,5.883,5.883,0,0,0,8.32,0,.4.4,0,0,0,.118-.284v-2.738l-3.9,1.3A1.206,1.206,0,0,1,100.3,203.333Z",
+    transform: "translate(-93.816 -197.48)",
+    fill: "#898989"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+    id: "Path_14",
+    "data-name": "Path 14",
+    d: "M6.861,37.245a.4.4,0,0,0,.127-.021l6.459-2.153a.4.4,0,0,0,0-.763L6.988,32.156a.4.4,0,0,0-.254,0L.275,34.309a.4.4,0,0,0,0,.763l6.459,2.153a.4.4,0,0,0,.127.021Z",
+    transform: "translate(0 -32.135)",
+    fill: "#898989"
+  })), "Teachers"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: tab === "students" ? "kiu-tabs-item active" : "kiu-tabs-item",
+    onClick: function onClick() {
+      return setTab("students");
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", {
+    className: tab === "students" ? "active" : "",
+    id: "student-with-graduation-cap",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "12.027",
+    height: "14.343",
+    viewBox: "0 0 12.027 14.343"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("g", {
+    id: "Layer_2_9_"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("g", {
+    id: "Group_3105",
+    "data-name": "Group 3105",
+    transform: "translate(0)"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+    id: "Path_597",
+    "data-name": "Path 597",
+    d: "M86.288,2.481c.138.078,1.07.528,1.521.745,0,.175.006.477.012.482.05.433.135.913.159,1.049-.041.023-.251.16-.251.588v.007c0,.011,0,.023,0,.034.091,1.189.564.677.661,1.2A2.589,2.589,0,0,0,89.8,8.294a1.988,1.988,0,0,0,1.717,0,2.589,2.589,0,0,0,1.407-1.709c.1-.521.571-.008.661-1.2,0-.012,0-.023,0-.034V5.346c0-.428-.21-.566-.251-.588.025-.136.11-.616.159-1.049.006-.005.01-.307.012-.482.247-.119.64-.309.966-.468v1.15a.3.3,0,0,0-.03.5s-.131.738-.174.954.748.173.713,0-.174-.954-.174-.954a.3.3,0,0,0-.03-.5v-1.3c.122-.06.212-.106.248-.127.1-.055.151-.126.14-.2.013-.076-.042-.159-.19-.231C93.912,1.533,91.214.213,90.948.086a.545.545,0,0,0-.587,0c-.267.127-2.964,1.447-4.022,1.965-.148.073-.2.155-.19.231C86.137,2.355,86.19,2.426,86.288,2.481Z",
+    transform: "translate(-84.641)",
+    fill: "#898989"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+    id: "Path_598",
+    "data-name": "Path 598",
+    d: "M47.057,295.429a13.267,13.267,0,0,1-1.513-.777.26.26,0,0,0-.366.114c-.41.687-1.171,2.685-1.7,2.722h-.02c-.531-.037-1.292-2.035-1.7-2.722a.26.26,0,0,0-.366-.114,13.266,13.266,0,0,1-1.513.777c-1.671.6-2.422,1.217-2.422,1.636v2.786H49.479v-2.786C49.479,296.646,48.728,296.032,47.057,295.429Z",
+    transform: "translate(-37.452 -285.508)",
+    fill: "#898989"
+  })))), "Students")), tab === "finance" ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_TabsComponents_Finance__WEBPACK_IMPORTED_MODULE_9__["default"], null) : tab === "admissions" ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_TabsComponents_Admissions__WEBPACK_IMPORTED_MODULE_10__["default"], null) : tab === "teachers" ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_TabsComponents_Teachers__WEBPACK_IMPORTED_MODULE_11__["default"], null) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_TabsComponents_Students__WEBPACK_IMPORTED_MODULE_12__["default"], null)));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Index);
+
+/***/ }),
+
+/***/ "./resources/js/Pages/Dashboard/TabsComponents/Admissions.jsx":
+/*!********************************************************************!*\
+  !*** ./resources/js/Pages/Dashboard/TabsComponents/Admissions.jsx ***!
+  \********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _layout_Index__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../layout/Index */ "./resources/js/layout/Index.jsx");
+/* harmony import */ var antd__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! antd */ "./node_modules/antd/es/select/index.js");
+/* harmony import */ var _Assets_icons_bars_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../Assets/icons/bars.svg */ "./resources/js/Assets/icons/bars.svg");
+/* harmony import */ var _Assets_icons_Group_3112_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../Assets/icons/Group 3112.svg */ "./resources/js/Assets/icons/Group 3112.svg");
+/* harmony import */ var _Components_Dashboard_CashFlowGraph__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../Components/Dashboard/CashFlowGraph */ "./resources/js/Components/Dashboard/CashFlowGraph.jsx");
+/* harmony import */ var _Components_Dashboard_RevenueBarChart__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../Components/Dashboard/RevenueBarChart */ "./resources/js/Components/Dashboard/RevenueBarChart.jsx");
+/* harmony import */ var _Components_Dashboard_CollegesBarChart__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../Components/Dashboard/CollegesBarChart */ "./resources/js/Components/Dashboard/CollegesBarChart.jsx");
+/* harmony import */ var _Components_Dashboard_FundPieChart__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../Components/Dashboard/FundPieChart */ "./resources/js/Components/Dashboard/FundPieChart.jsx");
+/* harmony import */ var _Components_Dashboard_SponsersCard__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../../Components/Dashboard/SponsersCard */ "./resources/js/Components/Dashboard/SponsersCard.jsx");
+/* harmony import */ var _Charts_EducationalChart__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Charts/EducationalChart */ "./resources/js/Pages/Dashboard/TabsComponents/Charts/EducationalChart.jsx");
+/* harmony import */ var _Charts_AdmissionsGraph__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./Charts/AdmissionsGraph */ "./resources/js/Pages/Dashboard/TabsComponents/Charts/AdmissionsGraph.jsx");
+
+
+
+
+
+
+
+
+
+
+
+
+
+var Admissions = function Admissions() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "admissions-main"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "d-flex justify-content-start align-items-center session-filter-wrapper"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "d-flex align-items-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "m-0 me-3 f-14 text-black"
+  }, "Session:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(antd__WEBPACK_IMPORTED_MODULE_11__["default"], {
+    defaultValue: "2020",
+    className: "select-secondary"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Option, {
+    value: "2019"
+  }, "2019"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Option, {
+    value: "2018"
+  }, "2018"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Option, {
+    value: "2017"
+  }, "2017"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "d-flex ms-5 align-items-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "m-0 me-3 f-14 text-black"
+  }, "Semester:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(antd__WEBPACK_IMPORTED_MODULE_11__["default"], {
+    defaultValue: "Fall",
+    className: "f-14 select-secondary"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Option, {
+    value: "Spring"
+  }, "Spring"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Option, {
+    value: "Fall"
+  }, "Fall")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "row mt-4"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "col-8"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Charts_AdmissionsGraph__WEBPACK_IMPORTED_MODULE_10__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "col-4"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "primary-card-rounded acceptance-card"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h6", {
+    className: "f-16 fw-600 h6-heading"
+  }, "Acceptance Rate"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "table-wrapper"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("table", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("thead", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "College"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "Applied"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "Accepted"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "Rate"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tbody", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "English"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "10,000"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "9,000"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "90%")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "English"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "10,000"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "9,000"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "90%")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "English"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "10,000"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "9,000"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "90%")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "English"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "10,000"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "9,000"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "90%")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Charts_EducationalChart__WEBPACK_IMPORTED_MODULE_9__["default"], null)))));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Admissions);
+
+/***/ }),
+
+/***/ "./resources/js/Pages/Dashboard/TabsComponents/Charts/AdmissionsGraph.jsx":
+/*!********************************************************************************!*\
+  !*** ./resources/js/Pages/Dashboard/TabsComponents/Charts/AdmissionsGraph.jsx ***!
+  \********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/component/ResponsiveContainer.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/chart/LineChart.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/cartesian/CartesianGrid.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/cartesian/XAxis.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/cartesian/YAxis.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/component/Tooltip.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/cartesian/Line.js");
+/* harmony import */ var antd__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! antd */ "./node_modules/antd/es/select/index.js");
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
+
+
+var Option = antd__WEBPACK_IMPORTED_MODULE_1__["default"].Option;
+
+var AdmissionsGraph = function AdmissionsGraph() {
+  // temporary data array
+  var data = [{
+    name: "2015",
+    uv: 300,
+    pv: 2400,
+    amt: 2400
+  }, {
+    name: "2016",
+    uv: 270,
+    pv: 1398,
+    amt: 2210
+  }, {
+    name: "2017",
+    uv: 790,
+    pv: 9800,
+    amt: 2290
+  }, {
+    name: "2018",
+    uv: 650,
+    pv: 3908,
+    amt: 2000
+  }, {
+    name: "2019",
+    uv: 830,
+    pv: 4800,
+    amt: 2181
+  }, {
+    name: "2020",
+    uv: 450,
+    pv: 3800,
+    amt: 2500
+  }, {
+    name: "2021",
+    uv: 500,
+    pv: 4300,
+    amt: 2100
+  }];
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "cashflow-chart-card primary-card-rounded admissions-chart-card"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "d-flex justify-content-between align-items-center mb-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h6", _defineProperty({
+    className: "f-16 fw-600 m-0"
+  }, "className", "h6-heading"), "Admissions"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "d-flex justify-content-between align-items-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "m-0 f-14 me-2 text-dark"
+  }, "Last:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(antd__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    defaultValue: "8 Years",
+    className: "select-secondary"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Option, {
+    value: "7"
+  }, "7 Years"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Option, {
+    value: "5"
+  }, "5 Years")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    style: {
+      width: "100%",
+      height: 400
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_2__.ResponsiveContainer, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_3__.LineChart, {
+    width: 500,
+    height: 300,
+    data: data,
+    margin: {
+      top: 5,
+      right: 30,
+      left: 20,
+      bottom: 5
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_4__.CartesianGrid, {
+    vertical: false,
+    stroke: "#EEEEEE",
+    strokeWidth: 1
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_5__.XAxis, {
+    fontSize: 10,
+    fontWeight: 300,
+    dataKey: "name",
+    strokeWidth: 1
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_6__.YAxis, {
+    fontSize: 10,
+    fontWeight: 300,
+    strokeWidth: 1
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_7__.Tooltip, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_8__.Line, {
+    dot: false,
+    activeDot: {
+      r: 5,
+      fill: "#ffffff",
+      stroke: "#089752",
+      strokeWidth: 1
+    },
+    type: "linear",
+    dataKey: "uv",
+    stroke: "#089752"
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "d-flex justify-content-center pt-2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "d-flex align-items-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "green-circle rounded-circle"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "f-color-grey ms-1 f-12"
+  }, "Cash Inflow")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "d-flex align-items-center ms-4"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "blue-circle rounded-circle"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "f-color-grey ms-1 f-12"
+  }, "Cash Outflow")))));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (AdmissionsGraph);
+
+/***/ }),
+
+/***/ "./resources/js/Pages/Dashboard/TabsComponents/Charts/AgeGroupBarChart.jsx":
+/*!*********************************************************************************!*\
+  !*** ./resources/js/Pages/Dashboard/TabsComponents/Charts/AgeGroupBarChart.jsx ***!
+  \*********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/component/ResponsiveContainer.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/chart/BarChart.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/cartesian/XAxis.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/cartesian/YAxis.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/component/Tooltip.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/cartesian/Bar.js");
+
+
+
+var AgeGroupBarChart = function AgeGroupBarChart() {
+  // temporary data array
+  var data = [{
+    name: "25-30",
+    uv: 4000,
+    pv: 3000
+  }, {
+    name: "31-40",
+    uv: 3000,
+    pv: 1000
+  }, {
+    name: "41-50",
+    uv: 2000,
+    pv: 3230
+  }, {
+    name: "51-60",
+    uv: 2780,
+    pv: 3800
+  }];
+  var colors = ["#36AA72", "#5F3379", "#343379", "#1F6166"];
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "colleges-cashflow-card primary-card-rounded mt-4 agegroup-card"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "d-flex justify-content-between mb-18"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h6", {
+    className: "f-16 fw-600"
+  }, "Age Group")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    style: {
+      width: "100%",
+      height: 450
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_1__.ResponsiveContainer, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_2__.BarChart, {
+    data: data,
+    barGap: 0
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_3__.XAxis, {
+    fontSize: 10,
+    fontWeight: 300,
+    dataKey: "name",
+    strokeWidth: 1
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_4__.YAxis, {
+    fontSize: 10,
+    fontWeight: 300,
+    strokeWidth: 1
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_5__.Tooltip, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_6__.Bar, {
+    barSize: 20,
+    dataKey: "pv",
+    fill: "#343379"
+  })))));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (AgeGroupBarChart);
+
+/***/ }),
+
+/***/ "./resources/js/Pages/Dashboard/TabsComponents/Charts/CountryWiseStudentsBarChart.jsx":
+/*!********************************************************************************************!*\
+  !*** ./resources/js/Pages/Dashboard/TabsComponents/Charts/CountryWiseStudentsBarChart.jsx ***!
+  \********************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @inertiajs/inertia-react */ "./node_modules/@inertiajs/inertia-react/dist/index.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/component/ResponsiveContainer.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/chart/BarChart.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/cartesian/XAxis.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/cartesian/YAxis.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/component/Tooltip.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/cartesian/Bar.js");
+
+
+
+
+var CountryWiseStudentsBarChart = function CountryWiseStudentsBarChart() {
+  // Temporary data array
+  var data = [{
+    name: "UK",
+    uv: 503
+  }, {
+    name: "UK",
+    uv: 763
+  }, {
+    name: "USA",
+    uv: 1000
+  }, {
+    name: "Pakistan",
+    uv: 483
+  }, {
+    name: "UK",
+    uv: 872
+  }, {
+    name: "Malaysia",
+    uv: 129
+  }, {
+    name: "USA",
+    uv: 430
+  }, {
+    name: "UK",
+    uv: 876
+  }, {
+    name: "Malaysia",
+    uv: 100
+  }];
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "revenue-bar-chart-wrapper mt-4"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "primary-card-rounded"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "d-flex justify-content-between"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
+    className: "f-16 fw-600 mb-18"
+  }, "Country wise Students"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("u", {
+    className: "color-secondary f-12 cursor-pointer"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_1__.InertiaLink, {
+    href: "/dashboard/country-wise-students",
+    preserveState: true
+  }, "View all"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    style: {
+      width: "100%",
+      height: 450
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_2__.ResponsiveContainer, {
+    width: "100%",
+    height: "100%"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_3__.BarChart, {
+    data: data,
+    layout: "vertical",
+    barSize: 17,
+    barCategoryGap: 32
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_4__.XAxis, {
+    fontSize: 10,
+    type: "number"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_5__.YAxis, {
+    dataKey: "name",
+    type: "category",
+    fontSize: 10
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_6__.Tooltip, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_7__.Bar, {
+    dataKey: "uv",
+    fill: "#089752"
+  }))))));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (CountryWiseStudentsBarChart);
+
+/***/ }),
+
+/***/ "./resources/js/Pages/Dashboard/TabsComponents/Charts/CountryWiseTeachersBarChart.jsx":
+/*!********************************************************************************************!*\
+  !*** ./resources/js/Pages/Dashboard/TabsComponents/Charts/CountryWiseTeachersBarChart.jsx ***!
+  \********************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @inertiajs/inertia-react */ "./node_modules/@inertiajs/inertia-react/dist/index.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/component/ResponsiveContainer.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/chart/BarChart.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/cartesian/XAxis.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/cartesian/YAxis.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/component/Tooltip.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/cartesian/Bar.js");
+
+
+
+
+var CountryWiseTeachersBarChart = function CountryWiseTeachersBarChart() {
+  // Temporary data array
+  var data = [{
+    name: "UK",
+    uv: 503
+  }, {
+    name: "UK",
+    uv: 763
+  }, {
+    name: "USA",
+    uv: 1000
+  }, {
+    name: "Pakistan",
+    uv: 483
+  }, {
+    name: "UK",
+    uv: 872
+  }, {
+    name: "Malaysia",
+    uv: 129
+  }, {
+    name: "USA",
+    uv: 430
+  }, {
+    name: "UK",
+    uv: 876
+  }, {
+    name: "Malaysia",
+    uv: 100
+  }];
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "revenue-bar-chart-wrapper mt-4"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "primary-card-rounded"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "d-flex justify-content-between"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
+    className: "f-16 fw-600 mb-18"
+  }, "Country wise Teachers"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("u", {
+    className: "color-secondary f-12 cursor-pointer"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_1__.InertiaLink, {
+    href: "/dashboard/all-countries"
+  }, "View all"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    style: {
+      width: "100%",
+      height: 450
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_2__.ResponsiveContainer, {
+    width: "100%",
+    height: "100%"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_3__.BarChart, {
+    data: data,
+    layout: "vertical",
+    barSize: 17,
+    barCategoryGap: 32
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_4__.XAxis, {
+    fontSize: 10,
+    type: "number"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_5__.YAxis, {
+    dataKey: "name",
+    type: "category",
+    fontSize: 10
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_6__.Tooltip, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_7__.Bar, {
+    dataKey: "uv",
+    fill: "#089752"
+  }))))));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (CountryWiseTeachersBarChart);
+
+/***/ }),
+
+/***/ "./resources/js/Pages/Dashboard/TabsComponents/Charts/EducationalChart.jsx":
+/*!*********************************************************************************!*\
+  !*** ./resources/js/Pages/Dashboard/TabsComponents/Charts/EducationalChart.jsx ***!
+  \*********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/chart/PieChart.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/component/Legend.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/polar/Pie.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/component/Cell.js");
+
+
+
+var EducationalChart = function EducationalChart() {
+  var data = [{
+    name: "PHD",
+    value: 100
+  }, {
+    name: "BS",
+    value: 75
+  }, {
+    name: "MS",
+    value: 60
+  }, {
+    name: "General Secondary",
+    value: 50
+  }];
+  var COLORS = ["#5F3379", "#089752", "#343379", "#1F6166"];
+  var RADIAN = Math.PI / 180;
+
+  var renderCustomizedLabel = function renderCustomizedLabel(_ref) {
+    var cx = _ref.cx,
+        cy = _ref.cy,
+        midAngle = _ref.midAngle,
+        innerRadius = _ref.innerRadius,
+        outerRadius = _ref.outerRadius,
+        percent = _ref.percent,
+        index = _ref.index;
+    var radius = innerRadius + (outerRadius - innerRadius) * 0.25;
+    var x = cx + radius * Math.cos(-midAngle * RADIAN);
+    var y = cy + radius * Math.sin(-midAngle * RADIAN);
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("text", {
+      x: x,
+      y: y,
+      fill: "white",
+      textAnchor: x > cx ? "start" : "end",
+      dominantBaseline: "central",
+      className: "f-14"
+    }, "".concat((percent * 100).toFixed(0), "%"));
+  };
+
+  return (
+    /*#__PURE__*/
+    // <ResponsiveContainer width="100%" height="100%">
+    react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+      className: "funds-utilization-card primary-card-rounded mt-4"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h6", {
+      className: "f-16 fw-600 mb-4 h6-heading"
+    }, "Educational Background"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_1__.PieChart, {
+      width: 350,
+      height: 160
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_2__.Legend, {
+      layout: "vertical",
+      align: "right",
+      verticalAlign: "middle",
+      iconSize: 10,
+      fontSize: 12
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_3__.Pie, {
+      cx: 75,
+      cy: 75,
+      data: data,
+      labelLine: false,
+      label: renderCustomizedLabel,
+      outerRadius: 80,
+      innerRadius: 25,
+      fill: "#8884d8",
+      dataKey: "value"
+    }, data.map(function (entry, index) {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_4__.Cell, {
+        key: "cell-".concat(index),
+        fill: COLORS[index % COLORS.length]
+      });
+    })))) // </ResponsiveContainer>
+
+  );
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (EducationalChart);
+
+/***/ }),
+
+/***/ "./resources/js/Pages/Dashboard/TabsComponents/Charts/GenderProportionPieChart.jsx":
+/*!*****************************************************************************************!*\
+  !*** ./resources/js/Pages/Dashboard/TabsComponents/Charts/GenderProportionPieChart.jsx ***!
+  \*****************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/chart/PieChart.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/component/Legend.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/polar/Pie.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/component/Cell.js");
+
+
+
+var GenderProportionPieChart = function GenderProportionPieChart() {
+  var data = [{
+    name: "Male",
+    value: 20
+  }, {
+    name: "Female",
+    value: 80
+  }];
+  var COLORS = ["#5F3379", "#089752", "#343379", "#1F6166"];
+  var RADIAN = Math.PI / 180;
+
+  var renderCustomizedLabel = function renderCustomizedLabel(_ref) {
+    var cx = _ref.cx,
+        cy = _ref.cy,
+        midAngle = _ref.midAngle,
+        innerRadius = _ref.innerRadius,
+        outerRadius = _ref.outerRadius,
+        percent = _ref.percent,
+        index = _ref.index;
+    var radius = innerRadius + (outerRadius - innerRadius) * 0.25;
+    var x = cx + radius * Math.cos(-midAngle * RADIAN);
+    var y = cy + radius * Math.sin(-midAngle * RADIAN);
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("text", {
+      x: x,
+      y: y,
+      fill: "white",
+      textAnchor: x > cx ? "start" : "end",
+      dominantBaseline: "central",
+      className: "f-14"
+    }, "".concat((percent * 100).toFixed(0), "%"));
+  };
+
+  return (
+    /*#__PURE__*/
+    // <ResponsiveContainer width="100%" height="100%">
+    react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+      className: "primary-card-rounded gender-proportion-chart mt-4 qualification-card"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h6", {
+      className: "f-16 fw-600 mb-4"
+    }, "Gender Proportion"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_1__.PieChart, {
+      width: 300,
+      height: 160
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_2__.Legend, {
+      layout: "vertical",
+      align: "right",
+      verticalAlign: "middle",
+      iconSize: 10,
+      fontSize: 12
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_3__.Pie, {
+      cx: 75,
+      cy: 75,
+      data: data,
+      labelLine: false,
+      label: renderCustomizedLabel,
+      outerRadius: 80,
+      innerRadius: 25,
+      fill: "#8884d8",
+      dataKey: "value"
+    }, data.map(function (entry, index) {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_4__.Cell, {
+        key: "cell-".concat(index),
+        fill: COLORS[index % COLORS.length]
+      });
+    })))) // </ResponsiveContainer>
+
+  );
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (GenderProportionPieChart);
+
+/***/ }),
+
+/***/ "./resources/js/Pages/Dashboard/TabsComponents/Charts/QualificationPieChart.jsx":
+/*!**************************************************************************************!*\
+  !*** ./resources/js/Pages/Dashboard/TabsComponents/Charts/QualificationPieChart.jsx ***!
+  \**************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/chart/PieChart.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/component/Legend.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/polar/Pie.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/component/Cell.js");
+
+
+
+var QualificationPieChart = function QualificationPieChart() {
+  var data = [{
+    name: "PHD",
+    value: 100
+  }, {
+    name: "MS",
+    value: 75
+  }, {
+    name: "BS",
+    value: 60
+  }];
+  var COLORS = ["#5F3379", "#089752", "#343379", "#1F6166"];
+  var RADIAN = Math.PI / 180;
+
+  var renderCustomizedLabel = function renderCustomizedLabel(_ref) {
+    var cx = _ref.cx,
+        cy = _ref.cy,
+        midAngle = _ref.midAngle,
+        innerRadius = _ref.innerRadius,
+        outerRadius = _ref.outerRadius,
+        percent = _ref.percent,
+        index = _ref.index;
+    var radius = innerRadius + (outerRadius - innerRadius) * 0.25;
+    var x = cx + radius * Math.cos(-midAngle * RADIAN);
+    var y = cy + radius * Math.sin(-midAngle * RADIAN);
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("text", {
+      x: x,
+      y: y,
+      fill: "white",
+      textAnchor: x > cx ? "start" : "end",
+      dominantBaseline: "central",
+      className: "f-14"
+    }, "".concat((percent * 100).toFixed(0), "%"));
+  };
+
+  return (
+    /*#__PURE__*/
+    // <ResponsiveContainer width="100%" height="100%">
+    react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+      className: "funds-utilization-card primary-card-rounded mt-4 qualification-card"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h6", {
+      className: "f-16 fw-600 mb-4"
+    }, "Qualification"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_1__.PieChart, {
+      width: 300,
+      height: 160
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_2__.Legend, {
+      layout: "vertical",
+      align: "right",
+      verticalAlign: "middle",
+      iconSize: 10,
+      fontSize: 12
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_3__.Pie, {
+      cx: 75,
+      cy: 75,
+      data: data,
+      labelLine: false,
+      label: renderCustomizedLabel,
+      outerRadius: 80,
+      innerRadius: 25,
+      fill: "#8884d8",
+      dataKey: "value"
+    }, data.map(function (entry, index) {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_4__.Cell, {
+        key: "cell-".concat(index),
+        fill: COLORS[index % COLORS.length]
+      });
+    })))) // </ResponsiveContainer>
+
+  );
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (QualificationPieChart);
+
+/***/ }),
+
+/***/ "./resources/js/Pages/Dashboard/TabsComponents/Charts/ScholarshipProportionPieChart.jsx":
+/*!**********************************************************************************************!*\
+  !*** ./resources/js/Pages/Dashboard/TabsComponents/Charts/ScholarshipProportionPieChart.jsx ***!
+  \**********************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/chart/PieChart.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/component/Legend.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/polar/Pie.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/component/Cell.js");
+
+
+
+var ScholarProportionPieChart = function ScholarProportionPieChart() {
+  var data = [{
+    name: "Scholarship",
+    value: 30
+  }, {
+    name: "Other",
+    value: 70
+  }];
+  var COLORS = ["#5F3379", "#089752", "#343379", "#1F6166"];
+  var RADIAN = Math.PI / 180;
+
+  var renderCustomizedLabel = function renderCustomizedLabel(_ref) {
+    var cx = _ref.cx,
+        cy = _ref.cy,
+        midAngle = _ref.midAngle,
+        innerRadius = _ref.innerRadius,
+        outerRadius = _ref.outerRadius,
+        percent = _ref.percent,
+        index = _ref.index;
+    var radius = innerRadius + (outerRadius - innerRadius) * 0.25;
+    var x = cx + radius * Math.cos(-midAngle * RADIAN);
+    var y = cy + radius * Math.sin(-midAngle * RADIAN);
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("text", {
+      x: x,
+      y: y,
+      fill: "white",
+      textAnchor: x > cx ? "start" : "end",
+      dominantBaseline: "central",
+      className: "f-14"
+    }, "".concat((percent * 100).toFixed(0), "%"));
+  };
+
+  return (
+    /*#__PURE__*/
+    // <ResponsiveContainer width="100%" height="100%">
+    react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+      className: "primary-card-rounded scholarship-proportion-chart mt-4 qualification-card"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h6", {
+      className: "f-16 fw-600 mb-4"
+    }, "Scholarship Proportion"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_1__.PieChart, {
+      width: 300,
+      height: 160
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_2__.Legend, {
+      layout: "vertical",
+      align: "right",
+      verticalAlign: "middle",
+      iconSize: 10,
+      fontSize: 12
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_3__.Pie, {
+      cx: 75,
+      cy: 75,
+      data: data,
+      labelLine: false,
+      label: renderCustomizedLabel,
+      outerRadius: 80,
+      innerRadius: 25,
+      fill: "#8884d8",
+      dataKey: "value"
+    }, data.map(function (entry, index) {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_4__.Cell, {
+        key: "cell-".concat(index),
+        fill: COLORS[index % COLORS.length]
+      });
+    })))) // </ResponsiveContainer>
+
+  );
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ScholarProportionPieChart);
+
+/***/ }),
+
+/***/ "./resources/js/Pages/Dashboard/TabsComponents/Charts/StudentsPerformanceBarChart.jsx":
+/*!********************************************************************************************!*\
+  !*** ./resources/js/Pages/Dashboard/TabsComponents/Charts/StudentsPerformanceBarChart.jsx ***!
+  \********************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @inertiajs/inertia-react */ "./node_modules/@inertiajs/inertia-react/dist/index.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/component/ResponsiveContainer.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/chart/BarChart.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/cartesian/XAxis.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/cartesian/YAxis.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/component/Tooltip.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/cartesian/Bar.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/component/Cell.js");
+
+
+
+
+var StudentsPerformanceBarChart = function StudentsPerformanceBarChart() {
+  var barColors = ["#36AA72", "#5F3379", "#343379", "#1F6166"]; // Temporary data array
+
+  var data = [{
+    name: "English",
+    uv: 503
+  }, {
+    name: "French",
+    uv: 763
+  }, {
+    name: "Urdu",
+    uv: 1000
+  }, {
+    name: "Arabic",
+    uv: 483
+  }];
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "students-performance-wrapper"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "primary-card-rounded students-performance-card mt-4"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "d-flex justify-content-between"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
+    className: "f-16 fw-600 mb-18"
+  }, "Students Performance")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    style: {
+      width: "100%",
+      height: 262
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_2__.ResponsiveContainer, {
+    width: "100%",
+    height: "100%"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_3__.BarChart, {
+    data: data,
+    layout: "vertical",
+    barSize: 17,
+    barCategoryGap: 32
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_4__.XAxis, {
+    fontSize: 10,
+    type: "number"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_5__.YAxis, {
+    dataKey: "name",
+    type: "category",
+    fontSize: 14
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_6__.Tooltip, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_7__.Bar, {
+    dataKey: "uv",
+    fill: "#089752"
+  }, data.map(function (entry, index) {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_8__.Cell, {
+      key: "cell-".concat(index),
+      fill: barColors[index % 20]
+    });
+  })))))));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (StudentsPerformanceBarChart);
+
+/***/ }),
+
+/***/ "./resources/js/Pages/Dashboard/TabsComponents/Charts/TeachersBarChart.jsx":
+/*!*********************************************************************************!*\
+  !*** ./resources/js/Pages/Dashboard/TabsComponents/Charts/TeachersBarChart.jsx ***!
+  \*********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @inertiajs/inertia-react */ "./node_modules/@inertiajs/inertia-react/dist/index.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/component/ResponsiveContainer.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/chart/BarChart.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/cartesian/XAxis.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/cartesian/YAxis.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/component/Tooltip.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/cartesian/Bar.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/component/Cell.js");
+
+
+
+
+var TeachersBarChart = function TeachersBarChart() {
+  var barColors = ["#36AA72", "#5F3379", "#343379", "#1F6166"]; // Temporary data array
+
+  var data = [{
+    name: "English",
+    uv: 503
+  }, {
+    name: "French",
+    uv: 763
+  }, {
+    name: "Urdu",
+    uv: 1000
+  }, {
+    name: "Arabic",
+    uv: 483
+  }];
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "num-of-teachers-card-wrapper"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "primary-card-rounded num-of-teachers-card"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "d-flex justify-content-between"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
+    className: "f-16 fw-600 mb-18"
+  }, "Number of Teachers")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    style: {
+      width: "100%",
+      height: 314
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_2__.ResponsiveContainer, {
+    width: "100%",
+    height: "100%"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_3__.BarChart, {
+    data: data,
+    layout: "vertical",
+    barSize: 17,
+    barCategoryGap: 32
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_4__.XAxis, {
+    fontSize: 10,
+    type: "number"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_5__.YAxis, {
+    dataKey: "name",
+    type: "category",
+    fontSize: 14
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_6__.Tooltip, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_7__.Bar, {
+    dataKey: "uv",
+    fill: "#089752"
+  }, data.map(function (entry, index) {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(recharts__WEBPACK_IMPORTED_MODULE_8__.Cell, {
+      key: "cell-".concat(index),
+      fill: barColors[index % 20]
+    });
+  })))))));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (TeachersBarChart);
+
+/***/ }),
+
+/***/ "./resources/js/Pages/Dashboard/TabsComponents/Finance.jsx":
+/*!*****************************************************************!*\
+  !*** ./resources/js/Pages/Dashboard/TabsComponents/Finance.jsx ***!
+  \*****************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _layout_Index__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../layout/Index */ "./resources/js/layout/Index.jsx");
+/* harmony import */ var antd__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! antd */ "./node_modules/antd/es/select/index.js");
+/* harmony import */ var _Assets_icons_bars_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../Assets/icons/bars.svg */ "./resources/js/Assets/icons/bars.svg");
+/* harmony import */ var _Assets_icons_Group_3112_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../Assets/icons/Group 3112.svg */ "./resources/js/Assets/icons/Group 3112.svg");
+/* harmony import */ var _Components_Dashboard_CashFlowGraph__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../Components/Dashboard/CashFlowGraph */ "./resources/js/Components/Dashboard/CashFlowGraph.jsx");
+/* harmony import */ var _Components_Dashboard_RevenueBarChart__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../Components/Dashboard/RevenueBarChart */ "./resources/js/Components/Dashboard/RevenueBarChart.jsx");
+/* harmony import */ var _Components_Dashboard_CollegesBarChart__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../Components/Dashboard/CollegesBarChart */ "./resources/js/Components/Dashboard/CollegesBarChart.jsx");
+/* harmony import */ var _Components_Dashboard_FundPieChart__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../Components/Dashboard/FundPieChart */ "./resources/js/Components/Dashboard/FundPieChart.jsx");
+/* harmony import */ var _Components_Dashboard_SponsersCard__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../../Components/Dashboard/SponsersCard */ "./resources/js/Components/Dashboard/SponsersCard.jsx");
+
+
+
+
+
+
+
+
+
+
+
+var Finance = function Finance() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "d-flex justify-content-start align-items-center session-filter-wrapper"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "d-flex align-items-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
     className: "m-0 me-3 f-14 text-black"
   }, "Session:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(antd__WEBPACK_IMPORTED_MODULE_9__["default"], {
@@ -4194,7 +5436,7 @@ var Index = function Index() {
   }, "Total"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h4", {
     className: "f-22 fw-600"
   }, "$2,582,123"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "f-10"
+    className: "f-10 mb-0"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
     className: "me-1"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
@@ -4206,7 +5448,303 @@ var Index = function Index() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Components_Dashboard_CashFlowGraph__WEBPACK_IMPORTED_MODULE_4__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Components_Dashboard_RevenueBarChart__WEBPACK_IMPORTED_MODULE_5__["default"], null)))));
 };
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Index);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Finance);
+
+/***/ }),
+
+/***/ "./resources/js/Pages/Dashboard/TabsComponents/Students.jsx":
+/*!******************************************************************!*\
+  !*** ./resources/js/Pages/Dashboard/TabsComponents/Students.jsx ***!
+  \******************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _layout_Index__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../layout/Index */ "./resources/js/layout/Index.jsx");
+/* harmony import */ var antd__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! antd */ "./node_modules/antd/es/select/index.js");
+/* harmony import */ var _Assets_icons_bars_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../Assets/icons/bars.svg */ "./resources/js/Assets/icons/bars.svg");
+/* harmony import */ var _Assets_icons_Group_3112_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../Assets/icons/Group 3112.svg */ "./resources/js/Assets/icons/Group 3112.svg");
+/* harmony import */ var _Components_Dashboard_CashFlowGraph__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../Components/Dashboard/CashFlowGraph */ "./resources/js/Components/Dashboard/CashFlowGraph.jsx");
+/* harmony import */ var _Components_Dashboard_RevenueBarChart__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../Components/Dashboard/RevenueBarChart */ "./resources/js/Components/Dashboard/RevenueBarChart.jsx");
+/* harmony import */ var _Components_Dashboard_CollegesBarChart__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../Components/Dashboard/CollegesBarChart */ "./resources/js/Components/Dashboard/CollegesBarChart.jsx");
+/* harmony import */ var _Components_Dashboard_FundPieChart__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../Components/Dashboard/FundPieChart */ "./resources/js/Components/Dashboard/FundPieChart.jsx");
+/* harmony import */ var _Components_Dashboard_SponsersCard__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../../Components/Dashboard/SponsersCard */ "./resources/js/Components/Dashboard/SponsersCard.jsx");
+/* harmony import */ var _Charts_TeachersBarChart__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Charts/TeachersBarChart */ "./resources/js/Pages/Dashboard/TabsComponents/Charts/TeachersBarChart.jsx");
+/* harmony import */ var _Charts_QualificationPieChart__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./Charts/QualificationPieChart */ "./resources/js/Pages/Dashboard/TabsComponents/Charts/QualificationPieChart.jsx");
+/* harmony import */ var _Charts_CountryWiseTeachersBarChart__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./Charts/CountryWiseTeachersBarChart */ "./resources/js/Pages/Dashboard/TabsComponents/Charts/CountryWiseTeachersBarChart.jsx");
+/* harmony import */ var _Charts_AgeGroupBarChart__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./Charts/AgeGroupBarChart */ "./resources/js/Pages/Dashboard/TabsComponents/Charts/AgeGroupBarChart.jsx");
+/* harmony import */ var _Charts_StudentsPerformanceBarChart__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./Charts/StudentsPerformanceBarChart */ "./resources/js/Pages/Dashboard/TabsComponents/Charts/StudentsPerformanceBarChart.jsx");
+/* harmony import */ var _Charts_CountryWiseStudentsBarChart__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./Charts/CountryWiseStudentsBarChart */ "./resources/js/Pages/Dashboard/TabsComponents/Charts/CountryWiseStudentsBarChart.jsx");
+/* harmony import */ var _Charts_GenderProportionPieChart__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./Charts/GenderProportionPieChart */ "./resources/js/Pages/Dashboard/TabsComponents/Charts/GenderProportionPieChart.jsx");
+/* harmony import */ var _Charts_ScholarshipProportionPieChart__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./Charts/ScholarshipProportionPieChart */ "./resources/js/Pages/Dashboard/TabsComponents/Charts/ScholarshipProportionPieChart.jsx");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var Students = function Students() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "students-main"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "d-flex justify-content-start align-items-center session-filter-wrapper"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "d-flex align-items-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "m-0 me-3 f-14 text-black"
+  }, "Session:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(antd__WEBPACK_IMPORTED_MODULE_17__["default"], {
+    defaultValue: "2020",
+    className: "select-secondary"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Option, {
+    value: "2019"
+  }, "2019"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Option, {
+    value: "2018"
+  }, "2018"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Option, {
+    value: "2017"
+  }, "2017"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "d-flex ms-5 align-items-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "m-0 me-3 f-14 text-black"
+  }, "Semester:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(antd__WEBPACK_IMPORTED_MODULE_17__["default"], {
+    defaultValue: "Fall",
+    className: "f-14 select-secondary"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Option, {
+    value: "Spring"
+  }, "Spring"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Option, {
+    value: "Fall"
+  }, "Fall")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "row mt-4"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "col-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "finance-card total-students-card primary-card-rounded"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "d-flex justify-content-between"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", {
+    id: "Component_17_1",
+    "data-name": "Component 17 \u2013 1",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "80.273",
+    height: "76.155",
+    viewBox: "0 0 60.273 76.155"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+    id: "Path_583",
+    "data-name": "Path 583",
+    d: "M105.508,49.753l-4.469-1.312L91.314,42.09V40.634a12.943,12.943,0,0,0,5.108-9.09,2.972,2.972,0,0,0,2.494-2.929v-4c0-.015,0-.031,0-.046V19.5a2.2,2.2,0,0,0,.92-1.795V13.064l6.711-1.143a2.379,2.379,0,0,0,.322-4.612L84.243.112a2.367,2.367,0,0,0-1.442,0l-22.623,7.2a2.387,2.387,0,0,0-.741,4.153v6.067h-.055a2.313,2.313,0,0,0-2.31,2.31V22.85L55.579,31.6a2.483,2.483,0,0,0,2.448,2.9h5.05a2.483,2.483,0,0,0,2.448-2.9L64.033,22.85V19.838a2.313,2.313,0,0,0-2.31-2.31h-.055V12.119l5.547.945V17.7a2.2,2.2,0,0,0,.915,1.791l0,5.119v4a2.971,2.971,0,0,0,2.494,2.929,12.943,12.943,0,0,0,5.1,9.087v1.462l-9.722,6.35-4.466,1.311a11.344,11.344,0,0,0-8.153,10.89v3.325a1.116,1.116,0,1,0,2.231,0V60.644a9.168,9.168,0,0,1,6.551-8.749l4.161-1.221,16.624,9.878a1.129,1.129,0,0,0,1.14,0l16.625-9.879,4.161,1.221a9.168,9.168,0,0,1,6.55,8.749V71.418a2.509,2.509,0,0,1-2.506,2.506h-4.917V69.116a1.116,1.116,0,0,0-2.231,0v4.808H65.267V69.116a1.116,1.116,0,1,0-2.231,0v4.808H58.124a2.509,2.509,0,0,1-2.506-2.506V69.183a1.116,1.116,0,1,0-2.231,0v2.234a4.743,4.743,0,0,0,4.737,4.737h50.8a4.743,4.743,0,0,0,4.737-4.737V60.643a11.344,11.344,0,0,0-8.152-10.89ZM63.076,32.272H58.027a.251.251,0,0,1-.249-.294l1.349-7.918h2.848l1.349,7.918A.251.251,0,0,1,63.076,32.272ZM61.8,19.838v1.99H59.3v-1.99a.079.079,0,0,1,.079-.079h2.341A.079.079,0,0,1,61.8,19.838ZM79.534,55.505l.444.682L68.589,49.421,75.818,44.7A23.433,23.433,0,0,0,79.534,55.505Zm-.008-4.815a28.685,28.685,0,0,0,7.995,0,21.3,21.3,0,0,1-1.878,3.6l-2.12,3.258L81.4,54.289a21.306,21.306,0,0,1-1.878-3.6Zm7.987,4.815A23.431,23.431,0,0,0,91.229,44.7l7.229,4.722L87.069,56.188Zm6.525-35.592h2.644V23.5H95.371a1.333,1.333,0,0,1-1.332-1.332V19.913ZM60.853,9.434l22.624-7.2a.147.147,0,0,1,.09,0l22.623,7.2a.125.125,0,0,1,.1.151c-.008.116-.074.127-.123.136l-7.48,1.274-2.808-.347a1.116,1.116,0,0,0-.274,2.214l1.995.247v4.573H69.445V13.108L80.989,11.68a20.664,20.664,0,0,1,5.066,0l4.369.54a1.116,1.116,0,0,0,.274-2.214l-4.369-.54a22.885,22.885,0,0,0-5.614,0L68.355,11,60.873,9.721c-.048-.008-.115-.019-.123-.136A.125.125,0,0,1,60.853,9.434ZM70.362,23.5V19.913h2.648v2.253A1.333,1.333,0,0,1,71.677,23.5H70.362Zm2.455,7.473a1.729,1.729,0,0,0-1.719-1.62.737.737,0,0,1-.736-.736V25.728h1.315a3.567,3.567,0,0,0,3.563-3.563V19.913H91.808v2.253a3.567,3.567,0,0,0,3.563,3.563h1.315v2.886a.737.737,0,0,1-.736.736,1.729,1.729,0,0,0-1.719,1.62,10.728,10.728,0,0,1-21.413,0ZM83.524,43.247a12.876,12.876,0,0,0,5.56-1.26v.707a21.261,21.261,0,0,1-.753,5.6,26.341,26.341,0,0,1-9.614,0,21.257,21.257,0,0,1-.753-5.6c0-.024,0-.047,0-.07,0,0,0-.009,0-.014v-.625A12.877,12.877,0,0,0,83.524,43.247Z",
+    transform: "translate(-53.387 0)",
+    fill: "#2f2f75"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "text-end"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "f-12"
+  }, "Total"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h4", {
+    className: "f-22 fw-700 total-students-text pb-2 pt-2"
+  }, "2,582"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "f-10 rate-text"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "me-1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: _Assets_icons_Group_3112_svg__WEBPACK_IMPORTED_MODULE_3__["default"],
+    alt: "",
+    className: "me-1"
+  }), "20%"), "Since last month"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "col-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "finance-card total-students-card primary-card-rounded"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "d-flex justify-content-between"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h6", {
+    "fw-600": true
+  }, "Graduation Rate"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "text-end"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h4", {
+    className: "f-22 fw-700 total-students-text"
+  }, "80%"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "col-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "finance-card total-students-card primary-card-rounded"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "d-flex justify-content-between"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h6", {
+    "fw-600": true
+  }, "Exam Centers"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "text-end"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h4", {
+    className: "f-22 fw-700 total-students-text"
+  }, "20"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "col-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "finance-card total-students-card primary-card-rounded"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "d-flex justify-content-between"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h6", {
+    "fw-600": true
+  }, "Teachers to Students Ratio"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "text-end"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h4", {
+    className: "f-22 fw-700 total-students-text"
+  }, "1:2")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "row"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "col-8"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Charts_StudentsPerformanceBarChart__WEBPACK_IMPORTED_MODULE_13__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "col-4"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "primary-card-rounded students-count-card mt-4"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h6", {
+    className: "f-16 fw-600 h6-heading"
+  }, "Students Count"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "table-wrapper students-table-wrapper"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("table", {
+    className: "students-count-table"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tbody", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "English"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "1000")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "French"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "200")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "Urdu"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "300")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "Arabic"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "150")))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "row"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "col-8"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Charts_CountryWiseStudentsBarChart__WEBPACK_IMPORTED_MODULE_14__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "col-4"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Charts_GenderProportionPieChart__WEBPACK_IMPORTED_MODULE_15__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Charts_ScholarshipProportionPieChart__WEBPACK_IMPORTED_MODULE_16__["default"], null)))));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Students);
+
+/***/ }),
+
+/***/ "./resources/js/Pages/Dashboard/TabsComponents/Teachers.jsx":
+/*!******************************************************************!*\
+  !*** ./resources/js/Pages/Dashboard/TabsComponents/Teachers.jsx ***!
+  \******************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _layout_Index__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../layout/Index */ "./resources/js/layout/Index.jsx");
+/* harmony import */ var antd__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! antd */ "./node_modules/antd/es/select/index.js");
+/* harmony import */ var _Assets_icons_bars_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../Assets/icons/bars.svg */ "./resources/js/Assets/icons/bars.svg");
+/* harmony import */ var _Assets_icons_Group_3112_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../Assets/icons/Group 3112.svg */ "./resources/js/Assets/icons/Group 3112.svg");
+/* harmony import */ var _Components_Dashboard_CashFlowGraph__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../Components/Dashboard/CashFlowGraph */ "./resources/js/Components/Dashboard/CashFlowGraph.jsx");
+/* harmony import */ var _Components_Dashboard_RevenueBarChart__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../Components/Dashboard/RevenueBarChart */ "./resources/js/Components/Dashboard/RevenueBarChart.jsx");
+/* harmony import */ var _Components_Dashboard_CollegesBarChart__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../Components/Dashboard/CollegesBarChart */ "./resources/js/Components/Dashboard/CollegesBarChart.jsx");
+/* harmony import */ var _Components_Dashboard_FundPieChart__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../Components/Dashboard/FundPieChart */ "./resources/js/Components/Dashboard/FundPieChart.jsx");
+/* harmony import */ var _Components_Dashboard_SponsersCard__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../../Components/Dashboard/SponsersCard */ "./resources/js/Components/Dashboard/SponsersCard.jsx");
+/* harmony import */ var _Charts_TeachersBarChart__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Charts/TeachersBarChart */ "./resources/js/Pages/Dashboard/TabsComponents/Charts/TeachersBarChart.jsx");
+/* harmony import */ var _Charts_QualificationPieChart__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./Charts/QualificationPieChart */ "./resources/js/Pages/Dashboard/TabsComponents/Charts/QualificationPieChart.jsx");
+/* harmony import */ var _Charts_CountryWiseTeachersBarChart__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./Charts/CountryWiseTeachersBarChart */ "./resources/js/Pages/Dashboard/TabsComponents/Charts/CountryWiseTeachersBarChart.jsx");
+/* harmony import */ var _Charts_AgeGroupBarChart__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./Charts/AgeGroupBarChart */ "./resources/js/Pages/Dashboard/TabsComponents/Charts/AgeGroupBarChart.jsx");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var Teachers = function Teachers() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "teachers-main"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "d-flex justify-content-start align-items-center session-filter-wrapper"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "d-flex align-items-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "m-0 me-3 f-14 text-black"
+  }, "Session:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(antd__WEBPACK_IMPORTED_MODULE_13__["default"], {
+    defaultValue: "2020",
+    className: "select-secondary"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Option, {
+    value: "2019"
+  }, "2019"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Option, {
+    value: "2018"
+  }, "2018"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Option, {
+    value: "2017"
+  }, "2017"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "d-flex ms-5 align-items-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "m-0 me-3 f-14 text-black"
+  }, "Semester:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(antd__WEBPACK_IMPORTED_MODULE_13__["default"], {
+    defaultValue: "Fall",
+    className: "f-14 select-secondary"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Option, {
+    value: "Spring"
+  }, "Spring"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Option, {
+    value: "Fall"
+  }, "Fall")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "row mt-4"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "col-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "finance-card total-teachers-card primary-card-rounded"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "d-flex justify-content-between"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", {
+    id: "Component_16_1",
+    "data-name": "Component 16 \u2013 1",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "55.301",
+    height: "76.753",
+    viewBox: "0 0 55.301 76.753"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+    id: "Path_627",
+    "data-name": "Path 627",
+    d: "M208.126,166.984c-1.067-5.479-2.15-10.955-3.284-16.421a6.97,6.97,0,0,0-4.387-5.3c-1.612-.652-3.3-1.123-4.921-1.747-2.17-.833-4.48-1.292-6.429-2.723a2.307,2.307,0,0,1-1.2-2.354,1.274,1.274,0,0,1,.586-1.073,14.387,14.387,0,0,0,6.495-10.126c.073-.47.231-.623.736-.662,2.992-.232,4.99-3.119,3.849-5.721a1.9,1.9,0,0,1-.1-.806c-.008-3.121.039-6.244-.033-9.364a10.42,10.42,0,0,0-2.611-7.068c-1.11-1.207-2.591-2.015-3.68-3.261a5.1,5.1,0,0,0-.914-.771c-6.49-4.581-13.341-5.038-20.5-1.761a16.806,16.806,0,0,0-3.5,2.288,1.131,1.131,0,1,0,1.365,1.778c.124-.084.244-.173.362-.266a16.31,16.31,0,0,1,8.084-3.438,16.857,16.857,0,0,1,13.664,3.886c.7.6,1.16,1.451,1.993,1.9a6.282,6.282,0,0,1,3.06,4.147c.91,3.417.239,6.905.5,10.388a12.679,12.679,0,0,0-1.548-.276c-.419-.023-.549-.152-.536-.571q.044-1.46,0-2.921a1.8,1.8,0,0,0-1.68-2.022,4.717,4.717,0,0,1-3.394-2.317,2.241,2.241,0,0,0-3.623-.6,17.9,17.9,0,0,1-14.3,3.837,5.652,5.652,0,0,0-6.451,4.14c-.048.22-.091.446-.4.435a3.836,3.836,0,0,0-1.464.257c-.234.086-.366.044-.365-.255a41.416,41.416,0,0,1,.219-5.905,16.849,16.849,0,0,1,2.4-6.464c.464-.752.32-1.411-.289-1.752s-1.159-.135-1.62.588a18.2,18.2,0,0,0-2.37,5.534,32.6,32.6,0,0,0-.559,8.34,7.079,7.079,0,0,1-.3,2.876,2.591,2.591,0,0,0-.1,1.476,4.413,4.413,0,0,0,4.21,3.676c.462.023.586.188.646.592a14.4,14.4,0,0,0,.37,1.828,14.59,14.59,0,0,0,6.635,8.7c.491.3.776,2,.324,2.31a14.011,14.011,0,0,1-3.135,2.005c-3,1.068-6.027,2.061-9.015,3.162a6.993,6.993,0,0,0-4.592,5.389q-1.726,8.155-3.272,16.347c-.518,2.736.553,4.925,3.3,5.428.036.007.061.07.092.106h32.365c.462-.391.92-.785.649-1.495-.265-.693-.841-.757-1.473-.756-7.267.005-14.534-.006-21.8.02-.643,0-.763-.177-.757-.781.033-3.072.009-6.144.02-9.216,0-.664-.167-1.2-.867-1.389-.774-.205-1.378.367-1.382,1.317-.011,2.647.005,5.295-.01,7.942,0,.689.3,1.607-.134,2-.376.339-1.279.1-1.948.107-1.249.005-2.5.021-3.746-.01-1.639-.04-2.386-.811-2.131-2.429.4-2.509.926-5,1.416-7.492.572-2.91,1.183-5.812,1.737-8.726a5.474,5.474,0,0,1,4.086-4.569c1.167-.348,2.318-.759,3.455-1.2.485-.187.678-.06.9.375.715,1.4,1.48,2.766,2.227,4.146.277.512.643.918,1.288.832a1.139,1.139,0,0,0,.749-1.793q-1.038-1.986-2.14-3.938c-.243-.428-.246-.6.279-.769,1.16-.372,1.15-.405,1.712.633q4.088,7.557,8.176,15.113a2.364,2.364,0,0,0,.716.942,1.4,1.4,0,0,0,2.049-.7q3.1-5.714,6.185-11.434c.782-1.446,1.6-2.874,2.337-4.341.263-.522.513-.587,1.025-.386,1.031.405,1.042.377.519,1.343q-4.194,7.754-8.388,15.508c-.991,1.828-2.671,2.475-4.37,1.694a3.607,3.607,0,0,1-1.613-1.706q-1.831-3.384-3.669-6.764a2.976,2.976,0,0,0-.457-.677,1.006,1.006,0,0,0-1.3-.17,1.034,1.034,0,0,0-.516,1.275,2.046,2.046,0,0,0,.175.412c1.317,2.43,2.627,4.865,3.959,7.287a5.435,5.435,0,0,0,9.642-.058q3.351-6.172,6.685-12.352c.758-1.4,1.51-2.808,2.275-4.206.105-.193.143-.513.522-.366,1.668.65,3.429,1.051,5.047,1.829A4.725,4.725,0,0,1,202.623,151q1.652,8.248,3.267,16.5c.35,1.789-.382,2.671-2.205,2.695-1.723.023-3.447-.015-5.169.02-.488.01-.563-.151-.561-.589.019-3.072.012-6.144.007-9.216a2.854,2.854,0,0,0-.076-.814,1.02,1.02,0,0,0-1.126-.786,1.048,1.048,0,0,0-1.017.929,3.438,3.438,0,0,0-.025.672c0,3.047-.014,6.094.012,9.141,0,.51-.1.733-.643.658-.319-.044-.649,0-.973-.011-.642-.028-1.221.083-1.471.765-.256.7.183,1.114.682,1.485h11.238a15.9,15.9,0,0,0,1.723-.621A4.35,4.35,0,0,0,208.126,166.984Zm-12.413-46.529a1.943,1.943,0,0,1,0,3.887c-.36.043-.561-.013-.53-.449.035-.495.008-.993.008-1.491s.026-1-.008-1.491C195.158,120.482,195.347,120.413,195.713,120.455Zm-30.143,2q0,.561,0,1.121c0,.874-.078.927-.943.652a1.969,1.969,0,0,1-1.52-1.963,2.176,2.176,0,0,1,1.994-1.819c.347-.026.5.061.476.439C165.549,121.41,165.571,121.934,165.571,122.457Zm2.3-4.077a3.3,3.3,0,0,1,3.262-2.556c1.145.039,2.286.231,3.43.246a19.5,19.5,0,0,0,12.988-4.273c.368-.3.557-.411.878.1a6.209,6.209,0,0,0,4.015,2.883c.382.085.541.249.511.655-.036.5-.009,1-.009,1.5,0,.474-.026.95.008,1.422a.814.814,0,0,1-.48.824c-.5.32-.886.511-1.361-.089a1.956,1.956,0,0,0-1.468-.653,41.5,41.5,0,0,0-6.048.041,2.345,2.345,0,0,0-1.819,1.164.935.935,0,0,1-1.015.535,6.326,6.326,0,0,0-1.047,0,.562.562,0,0,1-.6-.32,2.825,2.825,0,0,0-2.6-1.471c-1.671-.038-3.343-.027-5.015,0a2.722,2.722,0,0,0-2.075.879c-.27.307-.491.372-.8.114C168.3,119.1,167.715,119.085,167.872,118.38Zm22.016,5.307a1.6,1.6,0,0,1-1.592,1.572c-1.02.057-2.046.06-3.067.018a1.721,1.721,0,0,1-1.771-1.747c-.05-.7-.02-1.4-.012-2.1a.751.751,0,0,1,.856-.814c.8,0,1.6,0,2.4,0s1.6,0,2.4,0c.5,0,.824.212.826.748C189.924,122.141,189.946,122.918,189.888,123.687Zm-12.594-.276a1.74,1.74,0,0,1-1.8,1.871c-.947.041-1.9.041-2.844,0a1.733,1.733,0,0,1-1.82-1.853c-.023-.648,0-1.3-.008-1.947-.011-.6.289-.867.869-.866q1.2,0,2.4,0c.749,0,1.5.013,2.246,0,.7-.015,1,.3.972,1C177.277,122.213,177.314,122.813,177.295,123.412Zm-9.336,3.194c-.2-1.642-.11-3.286-.143-5a.8.8,0,0,1,.769.959,4.606,4.606,0,0,0,.961,3.578,3.715,3.715,0,0,0,2.722,1.367c1.147.032,2.3.065,3.442.007a3.945,3.945,0,0,0,3.836-3.988,4.486,4.486,0,0,0,0-.6c-.039-.371.067-.573.485-.515a1.789,1.789,0,0,0,.523,0c.527-.085.676.121.656.647a4.066,4.066,0,0,0,2.243,4.069,2.946,2.946,0,0,0,1.355.377c1.2.007,2.4.063,3.591,0a3.875,3.875,0,0,0,3.755-3.733,7.835,7.835,0,0,0,.024-1.271.724.724,0,0,1,.677-.876c.958,7.7-2.514,13.928-9.847,15.635A12.456,12.456,0,0,1,167.959,126.605Zm9.675,26.135c-.305-.253-.383-.635-.587-.932-.191-.277.038-.389.214-.524.292-.223.3.068.405.21A1.051,1.051,0,0,1,177.634,152.74Zm.919-5.174c-.893.634-1.772,1.288-2.715,1.976l-3.225-5.967c-.024-.044-.078-.09-.072-.128.117-.764.935-.763,1.339-1.219.222-.25.4-.137.6.087q2.06,2.321,4.149,4.616C178.885,147.215,178.839,147.363,178.553,147.566Zm-2.8-7.16c-.392-.425-.217-.874-.259-1.407a15.088,15.088,0,0,0,10.125-.131,1.892,1.892,0,0,1-.529,1.915c-1.41,1.477-2.756,3.016-4.1,4.55-.3.34-.452.4-.784.019Q178.012,142.85,175.755,140.407Zm4.811,10.393a1.071,1.071,0,0,1-1.178-.908c0-.178,1.047-1.059,1.215-.968.444.241,1,.438,1.161.945C181.908,150.334,181.247,150.8,180.566,150.8Zm.608,6.471a10.358,10.358,0,0,0-.6,1.043c-.494-.915-.926-1.74-1.384-2.55-.125-.221-.013-.383.041-.562.143-.474.332-.936.445-1.417a.834.834,0,0,1,.943-.77c.627-.011.668.363.878.763A3.037,3.037,0,0,1,181.174,157.27Zm2.953-5.462c-.187.3-.351.623-.55.978a1.066,1.066,0,0,1-.063-1.294c.1-.142.113-.43.4-.208C184.095,151.42,184.3,151.524,184.127,151.809Zm4.438-8.233c-1.065,1.966-2.125,3.934-3.222,5.967-.942-.688-1.821-1.342-2.714-1.976-.287-.2-.334-.351-.076-.634,1.411-1.546,2.8-3.109,4.2-4.666.113-.125.2-.288.422-.128.443.322.9.63,1.352.932C188.778,143.236,188.664,143.392,188.565,143.576Z",
+    transform: "translate(-152.943 -95.698)",
+    fill: "#343379"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "text-end"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "f-12"
+  }, "Total"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h4", {
+    className: "f-22 fw-600 total-teachers-text"
+  }, "200")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Charts_QualificationPieChart__WEBPACK_IMPORTED_MODULE_10__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "col-6"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Charts_TeachersBarChart__WEBPACK_IMPORTED_MODULE_9__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "col-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "primary-card-rounded num-of-publications-card"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h6", {
+    className: "f-16 fw-600 h6-heading"
+  }, "Number of publications"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "table-wrapper"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("table", {
+    className: "publications-table"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tbody", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "English"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "10")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "French"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "20")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "Urdu"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "30")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "Arabic"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, "15")))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "row"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "col-8"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Charts_CountryWiseTeachersBarChart__WEBPACK_IMPORTED_MODULE_11__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "col-4"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Charts_AgeGroupBarChart__WEBPACK_IMPORTED_MODULE_12__["default"], null)))));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Teachers);
 
 /***/ }),
 
@@ -4296,37 +5834,35 @@ function Index(_ref) {
       showBG = _useNavBarScrollAnima.showBG;
 
   var staticSidebarTabsData = [{
-    name: "Dashboard",
+    name: "All Colleges",
     image: _assets_icons_home_png__WEBPACK_IMPORTED_MODULE_3__["default"],
     url: "/dashboard",
     key: 0
   }, {
-    name: "Financial Payments",
+    name: "English College",
     image: _assets_icons_student_graduation_png__WEBPACK_IMPORTED_MODULE_5__["default"],
-    url: "/financial-payments",
+    url: "/english-college",
     key: 1
   }, {
-    name: "Expenses",
+    name: "Arabic College",
     image: _assets_icons_graduation_cap_png__WEBPACK_IMPORTED_MODULE_4__["default"],
-    url: "/expenses",
+    url: "/dashboard",
     key: 2
   }, {
-    name: "Student Wallets",
+    name: "French College",
     image: _assets_icons_spell_check_png__WEBPACK_IMPORTED_MODULE_6__["default"],
-    url: "/student-wallets",
+    url: "/dashboard",
     key: 3
   }, {
-    name: "Employees",
+    name: "Urdu College",
     image: _assets_icons_email_png__WEBPACK_IMPORTED_MODULE_7__["default"],
-    url: "/employees",
+    url: "/dashboard",
     key: 4
-  }, {
-    name: "Payment Account",
-    image: _assets_icons_email_png__WEBPACK_IMPORTED_MODULE_7__["default"],
-    url: "/payment-account",
-    key: 5
   }];
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("nav", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("meta", {
+    name: "viewport",
+    content: "width=1280,initial-scale=1"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("nav", {
     className: "primary-sidebar"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "logo-container"
@@ -4338,9 +5874,7 @@ function Index(_ref) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
       key: index,
       className: (0,clsx__WEBPACK_IMPORTED_MODULE_9__["default"])(currentPage === index && "active")
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-      src: item.image
-    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_8__.InertiaLink, {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_8__.InertiaLink, {
       preserveState: true,
       href: item.url
     }, item.name));

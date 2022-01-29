@@ -39,7 +39,7 @@ const CollegesBarChart = () => {
     return (
         <div className="colleges-cashflow-card primary-card-rounded mt-4">
             <div className="d-flex justify-content-between mb-18">
-                <h6 className="f-14 fw-600">Colleges Cashflow</h6>
+                <h6 className="f-16 fw-600">Colleges Cashflow</h6>
                 <div>
                     <div className="d-flex align-items-center">
                         <div className="rounded-circle green-circle"></div>

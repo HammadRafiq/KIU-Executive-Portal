@@ -9585,37 +9585,35 @@ function Index(_ref) {
       showBG = _useNavBarScrollAnima.showBG;
 
   var staticSidebarTabsData = [{
-    name: "Dashboard",
+    name: "All Colleges",
     image: _assets_icons_home_png__WEBPACK_IMPORTED_MODULE_3__["default"],
     url: "/dashboard",
     key: 0
   }, {
-    name: "Financial Payments",
+    name: "English College",
     image: _assets_icons_student_graduation_png__WEBPACK_IMPORTED_MODULE_5__["default"],
-    url: "/financial-payments",
+    url: "/english-college",
     key: 1
   }, {
-    name: "Expenses",
+    name: "Arabic College",
     image: _assets_icons_graduation_cap_png__WEBPACK_IMPORTED_MODULE_4__["default"],
-    url: "/expenses",
+    url: "/dashboard",
     key: 2
   }, {
-    name: "Student Wallets",
+    name: "French College",
     image: _assets_icons_spell_check_png__WEBPACK_IMPORTED_MODULE_6__["default"],
-    url: "/student-wallets",
+    url: "/dashboard",
     key: 3
   }, {
-    name: "Employees",
+    name: "Urdu College",
     image: _assets_icons_email_png__WEBPACK_IMPORTED_MODULE_7__["default"],
-    url: "/employees",
+    url: "/dashboard",
     key: 4
-  }, {
-    name: "Payment Account",
-    image: _assets_icons_email_png__WEBPACK_IMPORTED_MODULE_7__["default"],
-    url: "/payment-account",
-    key: 5
   }];
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("nav", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("meta", {
+    name: "viewport",
+    content: "width=1280,initial-scale=1"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("nav", {
     className: "primary-sidebar"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "logo-container"
@@ -9627,9 +9625,7 @@ function Index(_ref) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
       key: index,
       className: (0,clsx__WEBPACK_IMPORTED_MODULE_9__["default"])(currentPage === index && "active")
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-      src: item.image
-    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_8__.InertiaLink, {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_8__.InertiaLink, {
       preserveState: true,
       href: item.url
     }, item.name));

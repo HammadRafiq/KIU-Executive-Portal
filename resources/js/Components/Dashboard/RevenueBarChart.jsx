@@ -57,7 +57,7 @@ const RevenueBarChart = () => {
         <div className="revenue-bar-chart-wrapper mt-4">
             <div className="primary-card-rounded">
                 <div className="d-flex justify-content-between">
-                    <h2 className="f-16 fw-500 mb-18">
+                    <h2 className="f-16 fw-600 mb-18">
                         Revenue From Top 10 Countries
                     </h2>
 

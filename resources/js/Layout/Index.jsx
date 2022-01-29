@@ -15,36 +15,41 @@ function Index({ children, title, currentPage }) {
     const { showBG } = useNavBarScrollAnimate();
 
     const staticSidebarTabsData = [
-        { name: "Dashboard", image: HomeIcon, url: "/dashboard", key: 0 },
         {
-            name: "Financial Payments",
+            name: "All Colleges",
+            image: HomeIcon,
+            url: "/dashboard",
+            key: 0
+        },
+        {
+            name: "English College",
             image: GraduationIcon,
-            url: "/financial-payments",
+            url: "/english-college",
             key: 1,
         },
         {
-            name: "Expenses",
+            name: "Arabic College",
             image: GraduateIcon,
-            url: "/expenses",
+            url: "/dashboard",
             key: 2,
         },
         {
-            name: "Student Wallets",
+            name: "French College",
             image: AcademicIcon,
-            url: "/student-wallets",
+            url: "/dashboard",
             key: 3,
         },
-        { name: "Employees", image: EmailIcon, url: "/employees", key: 4 },
         {
-            name: "Payment Account",
-            image: EmailIcon,
-            url: "/payment-account",
-            key: 5,
+            name: "Urdu College",
+            image: EmailIcon, url: "/dashboard",
+            key: 4
         },
+        
     ];
 
     return (
         <div>
+            <meta name="viewport" content="width=1280,initial-scale=1"></meta>
             {
                 // primary sidebar
             }
@@ -59,12 +64,8 @@ function Index({ children, title, currentPage }) {
                             key={index}
                             className={clsx(currentPage === index && "active")}
                         >
-                            <span>
-                                <img src={item.image} />
-                            </span>
                             <InertiaLink preserveState={true} href={item.url}>
                                 {item.name}
-
                             </InertiaLink>
                         </li>
                     ))}

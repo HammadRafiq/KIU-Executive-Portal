@@ -42,7 +42,7 @@ const FundPieChart = () => {
     return (
         // <ResponsiveContainer width="100%" height="100%">
         <div className="funds-utilization-card primary-card-rounded mt-4">
-            <h6 className="f-14 fw-600 mb-4">Funds Utilization</h6>
+            <h6 className="f-16 fw-600 mb-4">Funds Utilization</h6>
             <PieChart width={300} height={160}>
                 <Legend
                     layout="vertical"

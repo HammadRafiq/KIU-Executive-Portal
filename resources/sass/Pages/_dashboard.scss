@@ -1,4 +1,229 @@
 .dashboard-wrapper {
+
+    /* medium 600 */
+    /* regular 400 */
+
+    h1, h2, h3, h4, h5, h6{
+        color: #04041C !important;
+    }
+
+    .primary-card-rounded{
+        padding: 11px 21px;
+    }
+
+    .kiu-tabs{
+        text-align: center;
+        border-bottom: 1px solid #D4D4D4;
+
+        svg{
+            margin-right: 10px;
+            vertical-align: -2px;
+        }
+
+        svg path{
+            fill: #898989;
+        }
+
+        .kiu-tabs-item{
+            width: 10vw;
+            font-size: 14px;
+            font-weight: 400;
+            padding-bottom: 5px;
+            color: #898989;
+            cursor: pointer;
+        }
+
+        .kiu-tabs-item.active{
+            font-weight: 600;
+            border-bottom: 3px solid #089752;
+            color: #089752;
+        }
+
+        svg.active path{
+            fill: #089752;
+        }
+
+        .admissions-svg{
+            vertical-align: 0;
+        }
+    }
+
+    .table-wrapper{
+        padding-left: 21px;
+        padding-right: 21px;
+
+        table{
+            width: 100%;
+            padding: 0 21px 0 21px;
+
+            td{
+                padding-top: 8px;
+                padding-bottom: 15px;
+            }
+
+            tbody tr td:nth-last-of-type(1){
+                font-weight: 600;
+                font-size: 16px;
+            }
+        
+            thead tr{
+                font-size: 14px;
+                font-weight: 700;
+                color: #04041C;
+            }
+
+            tbody tr{
+                font-size: 14px;
+                font-weight: 400;
+                color: #04041C;
+                border-bottom: 1px solid #E2E2E2;
+            }
+
+            tbody tr:nth-last-of-type(1){
+                border-bottom: none;
+            }
+        }
+    }
+
+    .admissions-main{
+        .admissions-chart-card{
+            height: 583px;
+        }
+
+        .h6-heading{
+            font-weight: 600;
+            color: #04041C;
+            font-size: 16px;
+        }
+        h6{
+            padding: 11px 21px;
+            border-bottom: 1px solid #E2E2E2;
+
+        }        
+    }
+
+    .teachers-main{
+
+        table, .publications-table{
+            td{
+                padding-top: 24px;
+                padding-bottom: 32px;
+            }
+            tbody tr td:nth-last-of-type(1){
+                width: 15%;
+            }
+            tbody tr td:nth-of-type(1){
+                width: 85%;
+            }               
+        }
+
+        .num-of-teachers-card{
+            padding: 11px 21px;
+        }
+
+        tspan{
+            fill: #04041C;
+        }
+
+        .total-teachers-card{
+            display: grid;
+            align-items: center;
+            height: 114px;
+
+            .text-end{
+                align-self: center;
+            }
+
+            .total-teachers-text{
+                margin-bottom: 0;
+            }
+            
+        }
+
+        .agegroup-card{
+            height: 527px;
+        }
+
+    }
+
+    .students-main{
+        h1, h2, h3, h4, h5, h6, p{
+            margin: 0;
+            padding: 0;
+        }
+
+        .students-count-table{
+            td{
+                padding-top: 22px;
+                padding-bottom: 27px;
+            }
+
+            td:nth-last-of-type(1){
+                text-align: right;
+            }
+        }
+
+        .total-students-card{
+            display: grid;
+            align-items: center;
+            height: 114px;
+
+            .text-end{
+                align-self: center;
+            }
+
+            .rate-text{
+                margin-bottom: 0;
+            }
+
+            h6{
+                line-height: 25px;
+                padding-right: 15px;
+            }
+
+            svg{
+                padding-right: 15px;
+            }
+        }
+
+        .students-performance-card{
+            padding: 20px 25px;
+        }
+
+        .gender-proportion-chart, .scholarship-proportion-chart{
+            padding-top: 20px;
+
+            .recharts-wrapper{
+                margin: 0 auto;
+            }
+        }
+
+    }
+
+    .session-filter-wrapper{
+        margin-top: 30px;
+    }
+
+    .container-kk{
+        padding: 5px 5px 5px 0;
+        cursor: pointer;
+    }
+    
+    .container-kk svg{
+        font-size: 14px;
+        fill: #000;
+    }
+
+    .nobr{
+        display: none;
+    }
+
+    @media(max-width: 1350px){
+        .nobr{
+            display: block;
+        }
+    }
+
     padding-bottom: 50px;
     .green-circle {
         width: 8px;
@@ -41,6 +266,7 @@
             color: #686874;
         }
     }
+
     //===========================================================================
     //---------------------------------- College Cashflow Card ----------------
     //===========================================================================
@@ -137,6 +363,18 @@
             padding: 27px 27px 27px 30px;
             height: 100% !important;
             padding: 20px;
+        }
+    }
+}
+
+@media (max-width: 1650px){
+    .qualification-card{
+        .recharts-wrapper{
+            width: 200px;
+
+            svg{
+                width: 200;
+            }
         }
     }
 }

@@ -16,45 +16,45 @@ const CashFlowGraph = () => {
     // temporary data array
     const data = [
         {
-            name: "Page A",
-            uv: 4000,
-            pv: 2400,
+            name: "2015",
+            uv: 4500000,
+            pv: 3500000,
             amt: 2400,
         },
         {
-            name: "Page B",
-            uv: 3000,
-            pv: 1398,
+            name: "2016",
+            uv: 5500000,
+            pv: 3100000,
             amt: 2210,
         },
         {
-            name: "Page C",
-            uv: 2000,
-            pv: 9800,
+            name: "2017",
+            uv: 4100000,
+            pv: 7500000,
             amt: 2290,
         },
         {
-            name: "Page D",
-            uv: 2780,
-            pv: 3908,
+            name: "2018",
+            uv: 5000000,
+            pv: 2500000,
             amt: 2000,
         },
         {
-            name: "Page E",
-            uv: 1890,
-            pv: 4800,
+            name: "2019",
+            uv: 3500000,
+            pv: 5500000,
             amt: 2181,
         },
         {
-            name: "Page F",
-            uv: 2390,
-            pv: 3800,
+            name: "2020",
+            uv: 7000000,
+            pv: 5500000,
             amt: 2500,
         },
         {
-            name: "Page G",
-            uv: 3490,
-            pv: 4300,
+            name: "2021",
+            uv: 3500000,
+            pv: 5000000,
             amt: 2100,
         },
     ];
@@ -73,7 +73,7 @@ const CashFlowGraph = () => {
             {/* 
                     //Pie Chart 
             */}
-            <div style={{ width: "100%", height: 300 }}>
+            <div style={{ width: "100%", height: 350 }}>
                 <ResponsiveContainer>
                     <LineChart
                         width={500}

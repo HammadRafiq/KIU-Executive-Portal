@@ -57,3 +57,16 @@ Route:: get("/payment-account", function () {
     return Inertia::render('PaymentAccount/Index');
 });
 
+/* My routes */
+
+Route:: get("/english-college", function () {
+    return Inertia::render('English/Index');
+});
+
+Route:: get("/profile", function () {
+    return Inertia::render('Profile/Profile');
+});
+
+Route:: get("/dashboard/country-wise-students", function () {
+    return Inertia::render('Dashboard/CountryWiseStudents');
+});

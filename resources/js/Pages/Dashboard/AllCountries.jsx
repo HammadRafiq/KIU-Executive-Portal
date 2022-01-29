@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import { Select } from "antd";
 import Layout from "../../layout/Index";
-
 import AllCountriesBarChart from "./../../Components/Dashboard/AllCountriesBarChart";
+import { ArrowBackIos } from '@material-ui/icons';
+import { InertiaLink } from "@inertiajs/inertia-react";
 
 const { Option } = Select;
 const AllCountries = () => {
@@ -11,6 +12,9 @@ const AllCountries = () => {
             <Layout currentPage={0}>
                 <div className="dashboard-wrapper">
                     <div className="d-flex justify-content-start align-items-center">
+                        <InertiaLink href={"/dashboard"}>
+                            <div className="container-kk"> <ArrowBackIos /> </div>
+                        </InertiaLink>
                         <h6 className="fw-bold f-14 m-0">Countries</h6>
                         <div className="d-flex ms-5 align-items-center">
                             <p className="m-0 me-3 f-14 text-dark">Session:</p>

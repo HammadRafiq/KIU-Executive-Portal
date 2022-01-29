@@ -53549,6 +53549,14 @@ var map = {
 		"./resources/js/Pages/Dashboard/AllCountries.jsx",
 		"resources_js_Pages_Dashboard_AllCountries_jsx"
 	],
+	"./Dashboard/CountryWiseStudents": [
+		"./resources/js/Pages/Dashboard/CountryWiseStudents.jsx",
+		"resources_js_Pages_Dashboard_CountryWiseStudents_jsx"
+	],
+	"./Dashboard/CountryWiseStudents.jsx": [
+		"./resources/js/Pages/Dashboard/CountryWiseStudents.jsx",
+		"resources_js_Pages_Dashboard_CountryWiseStudents_jsx"
+	],
 	"./Dashboard/Index": [
 		"./resources/js/Pages/Dashboard/Index.jsx",
 		"resources_js_Pages_Dashboard_Index_jsx"
@@ -53557,69 +53565,157 @@ var map = {
 		"./resources/js/Pages/Dashboard/Index.jsx",
 		"resources_js_Pages_Dashboard_Index_jsx"
 	],
-	"./Employees/Index": [
-		"./resources/js/Pages/Employees/Index.jsx",
-		"resources_js_Pages_Employees_Index_jsx"
+	"./Dashboard/TabsComponents/Admissions": [
+		"./resources/js/Pages/Dashboard/TabsComponents/Admissions.jsx",
+		"resources_js_Pages_Dashboard_TabsComponents_Admissions_jsx"
 	],
-	"./Employees/Index.jsx": [
-		"./resources/js/Pages/Employees/Index.jsx",
-		"resources_js_Pages_Employees_Index_jsx"
+	"./Dashboard/TabsComponents/Admissions.jsx": [
+		"./resources/js/Pages/Dashboard/TabsComponents/Admissions.jsx",
+		"resources_js_Pages_Dashboard_TabsComponents_Admissions_jsx"
 	],
-	"./Expenses/Details": [
-		"./resources/js/Pages/Expenses/Details.jsx",
-		"resources_js_Pages_Expenses_Details_jsx"
+	"./Dashboard/TabsComponents/Charts/AdmissionsGraph": [
+		"./resources/js/Pages/Dashboard/TabsComponents/Charts/AdmissionsGraph.jsx",
+		"resources_js_Pages_Dashboard_TabsComponents_Charts_AdmissionsGraph_jsx"
 	],
-	"./Expenses/Details.jsx": [
-		"./resources/js/Pages/Expenses/Details.jsx",
-		"resources_js_Pages_Expenses_Details_jsx"
+	"./Dashboard/TabsComponents/Charts/AdmissionsGraph.jsx": [
+		"./resources/js/Pages/Dashboard/TabsComponents/Charts/AdmissionsGraph.jsx",
+		"resources_js_Pages_Dashboard_TabsComponents_Charts_AdmissionsGraph_jsx"
 	],
-	"./Expenses/Index": [
-		"./resources/js/Pages/Expenses/Index.jsx",
-		"resources_js_Pages_Expenses_Index_jsx"
+	"./Dashboard/TabsComponents/Charts/AgeGroupBarChart": [
+		"./resources/js/Pages/Dashboard/TabsComponents/Charts/AgeGroupBarChart.jsx",
+		"resources_js_Pages_Dashboard_TabsComponents_Charts_AgeGroupBarChart_jsx"
 	],
-	"./Expenses/Index.jsx": [
-		"./resources/js/Pages/Expenses/Index.jsx",
-		"resources_js_Pages_Expenses_Index_jsx"
+	"./Dashboard/TabsComponents/Charts/AgeGroupBarChart.jsx": [
+		"./resources/js/Pages/Dashboard/TabsComponents/Charts/AgeGroupBarChart.jsx",
+		"resources_js_Pages_Dashboard_TabsComponents_Charts_AgeGroupBarChart_jsx"
 	],
-	"./Expenses/PaymentRecipt": [
-		"./resources/js/Pages/Expenses/PaymentRecipt.jsx",
-		"resources_js_Pages_Expenses_PaymentRecipt_jsx"
+	"./Dashboard/TabsComponents/Charts/CountryWiseStudentsBarChart": [
+		"./resources/js/Pages/Dashboard/TabsComponents/Charts/CountryWiseStudentsBarChart.jsx",
+		"resources_js_Pages_Dashboard_TabsComponents_Charts_CountryWiseStudentsBarChart_jsx"
 	],
-	"./Expenses/PaymentRecipt.jsx": [
-		"./resources/js/Pages/Expenses/PaymentRecipt.jsx",
-		"resources_js_Pages_Expenses_PaymentRecipt_jsx"
+	"./Dashboard/TabsComponents/Charts/CountryWiseStudentsBarChart.jsx": [
+		"./resources/js/Pages/Dashboard/TabsComponents/Charts/CountryWiseStudentsBarChart.jsx",
+		"resources_js_Pages_Dashboard_TabsComponents_Charts_CountryWiseStudentsBarChart_jsx"
 	],
-	"./FinancialPayments/Details": [
-		"./resources/js/Pages/FinancialPayments/Details.jsx",
-		"resources_js_Pages_FinancialPayments_Details_jsx"
+	"./Dashboard/TabsComponents/Charts/CountryWiseStudentsChart": [
+		"./resources/js/Pages/Dashboard/TabsComponents/Charts/CountryWiseStudentsChart.jsx",
+		"resources_js_Pages_Dashboard_TabsComponents_Charts_CountryWiseStudentsChart_jsx"
 	],
-	"./FinancialPayments/Details.jsx": [
-		"./resources/js/Pages/FinancialPayments/Details.jsx",
-		"resources_js_Pages_FinancialPayments_Details_jsx"
+	"./Dashboard/TabsComponents/Charts/CountryWiseStudentsChart.jsx": [
+		"./resources/js/Pages/Dashboard/TabsComponents/Charts/CountryWiseStudentsChart.jsx",
+		"resources_js_Pages_Dashboard_TabsComponents_Charts_CountryWiseStudentsChart_jsx"
 	],
-	"./FinancialPayments/Index": [
-		"./resources/js/Pages/FinancialPayments/Index.jsx",
-		"resources_js_Pages_FinancialPayments_Index_jsx"
+	"./Dashboard/TabsComponents/Charts/CountryWiseTeachersBarChart": [
+		"./resources/js/Pages/Dashboard/TabsComponents/Charts/CountryWiseTeachersBarChart.jsx",
+		"resources_js_Pages_Dashboard_TabsComponents_Charts_CountryWiseTeachersBarChart_jsx"
 	],
-	"./FinancialPayments/Index.jsx": [
-		"./resources/js/Pages/FinancialPayments/Index.jsx",
-		"resources_js_Pages_FinancialPayments_Index_jsx"
+	"./Dashboard/TabsComponents/Charts/CountryWiseTeachersBarChart.jsx": [
+		"./resources/js/Pages/Dashboard/TabsComponents/Charts/CountryWiseTeachersBarChart.jsx",
+		"resources_js_Pages_Dashboard_TabsComponents_Charts_CountryWiseTeachersBarChart_jsx"
 	],
-	"./PaymentAccount/Index": [
-		"./resources/js/Pages/PaymentAccount/Index.jsx",
-		"resources_js_Pages_PaymentAccount_Index_jsx"
+	"./Dashboard/TabsComponents/Charts/EducationalChart": [
+		"./resources/js/Pages/Dashboard/TabsComponents/Charts/EducationalChart.jsx",
+		"resources_js_Pages_Dashboard_TabsComponents_Charts_EducationalChart_jsx"
 	],
-	"./PaymentAccount/Index.jsx": [
-		"./resources/js/Pages/PaymentAccount/Index.jsx",
-		"resources_js_Pages_PaymentAccount_Index_jsx"
+	"./Dashboard/TabsComponents/Charts/EducationalChart.jsx": [
+		"./resources/js/Pages/Dashboard/TabsComponents/Charts/EducationalChart.jsx",
+		"resources_js_Pages_Dashboard_TabsComponents_Charts_EducationalChart_jsx"
 	],
-	"./StudentWallets/Index": [
-		"./resources/js/Pages/StudentWallets/Index.jsx",
-		"resources_js_Pages_StudentWallets_Index_jsx"
+	"./Dashboard/TabsComponents/Charts/GenderProportionPieChart": [
+		"./resources/js/Pages/Dashboard/TabsComponents/Charts/GenderProportionPieChart.jsx",
+		"resources_js_Pages_Dashboard_TabsComponents_Charts_GenderProportionPieChart_jsx"
 	],
-	"./StudentWallets/Index.jsx": [
-		"./resources/js/Pages/StudentWallets/Index.jsx",
-		"resources_js_Pages_StudentWallets_Index_jsx"
+	"./Dashboard/TabsComponents/Charts/GenderProportionPieChart.jsx": [
+		"./resources/js/Pages/Dashboard/TabsComponents/Charts/GenderProportionPieChart.jsx",
+		"resources_js_Pages_Dashboard_TabsComponents_Charts_GenderProportionPieChart_jsx"
+	],
+	"./Dashboard/TabsComponents/Charts/QualificationPieChart": [
+		"./resources/js/Pages/Dashboard/TabsComponents/Charts/QualificationPieChart.jsx",
+		"resources_js_Pages_Dashboard_TabsComponents_Charts_QualificationPieChart_jsx"
+	],
+	"./Dashboard/TabsComponents/Charts/QualificationPieChart.jsx": [
+		"./resources/js/Pages/Dashboard/TabsComponents/Charts/QualificationPieChart.jsx",
+		"resources_js_Pages_Dashboard_TabsComponents_Charts_QualificationPieChart_jsx"
+	],
+	"./Dashboard/TabsComponents/Charts/ScholarshipProportionPieChart": [
+		"./resources/js/Pages/Dashboard/TabsComponents/Charts/ScholarshipProportionPieChart.jsx",
+		"resources_js_Pages_Dashboard_TabsComponents_Charts_ScholarshipProportionPieChart_jsx"
+	],
+	"./Dashboard/TabsComponents/Charts/ScholarshipProportionPieChart.jsx": [
+		"./resources/js/Pages/Dashboard/TabsComponents/Charts/ScholarshipProportionPieChart.jsx",
+		"resources_js_Pages_Dashboard_TabsComponents_Charts_ScholarshipProportionPieChart_jsx"
+	],
+	"./Dashboard/TabsComponents/Charts/StudentsPerformanceBarChart": [
+		"./resources/js/Pages/Dashboard/TabsComponents/Charts/StudentsPerformanceBarChart.jsx",
+		"resources_js_Pages_Dashboard_TabsComponents_Charts_StudentsPerformanceBarChart_jsx"
+	],
+	"./Dashboard/TabsComponents/Charts/StudentsPerformanceBarChart.jsx": [
+		"./resources/js/Pages/Dashboard/TabsComponents/Charts/StudentsPerformanceBarChart.jsx",
+		"resources_js_Pages_Dashboard_TabsComponents_Charts_StudentsPerformanceBarChart_jsx"
+	],
+	"./Dashboard/TabsComponents/Charts/TeachersBarChart": [
+		"./resources/js/Pages/Dashboard/TabsComponents/Charts/TeachersBarChart.jsx",
+		"resources_js_Pages_Dashboard_TabsComponents_Charts_TeachersBarChart_jsx"
+	],
+	"./Dashboard/TabsComponents/Charts/TeachersBarChart.jsx": [
+		"./resources/js/Pages/Dashboard/TabsComponents/Charts/TeachersBarChart.jsx",
+		"resources_js_Pages_Dashboard_TabsComponents_Charts_TeachersBarChart_jsx"
+	],
+	"./Dashboard/TabsComponents/Finance": [
+		"./resources/js/Pages/Dashboard/TabsComponents/Finance.jsx",
+		"resources_js_Pages_Dashboard_TabsComponents_Finance_jsx"
+	],
+	"./Dashboard/TabsComponents/Finance.jsx": [
+		"./resources/js/Pages/Dashboard/TabsComponents/Finance.jsx",
+		"resources_js_Pages_Dashboard_TabsComponents_Finance_jsx"
+	],
+	"./Dashboard/TabsComponents/Students": [
+		"./resources/js/Pages/Dashboard/TabsComponents/Students.jsx",
+		"resources_js_Pages_Dashboard_TabsComponents_Students_jsx"
+	],
+	"./Dashboard/TabsComponents/Students.jsx": [
+		"./resources/js/Pages/Dashboard/TabsComponents/Students.jsx",
+		"resources_js_Pages_Dashboard_TabsComponents_Students_jsx"
+	],
+	"./Dashboard/TabsComponents/Teachers": [
+		"./resources/js/Pages/Dashboard/TabsComponents/Teachers.jsx",
+		"resources_js_Pages_Dashboard_TabsComponents_Teachers_jsx"
+	],
+	"./Dashboard/TabsComponents/Teachers.jsx": [
+		"./resources/js/Pages/Dashboard/TabsComponents/Teachers.jsx",
+		"resources_js_Pages_Dashboard_TabsComponents_Teachers_jsx"
+	],
+	"./English/Index": [
+		"./resources/js/Pages/English/Index.jsx",
+		"resources_js_Pages_English_Index_jsx"
+	],
+	"./English/Index.jsx": [
+		"./resources/js/Pages/English/Index.jsx",
+		"resources_js_Pages_English_Index_jsx"
+	],
+	"./English/MapChart": [
+		"./resources/js/Pages/English/MapChart.jsx",
+		"resources_js_Pages_English_MapChart_jsx"
+	],
+	"./English/MapChart.jsx": [
+		"./resources/js/Pages/English/MapChart.jsx",
+		"resources_js_Pages_English_MapChart_jsx"
+	],
+	"./English/_english.scss": [
+		"./resources/js/Pages/English/_english.scss",
+		"resources_js_Pages_English__english_scss"
+	],
+	"./Profile/Profile": [
+		"./resources/js/Pages/Profile/Profile.jsx",
+		"resources_js_Pages_Profile_Profile_jsx"
+	],
+	"./Profile/Profile.jsx": [
+		"./resources/js/Pages/Profile/Profile.jsx",
+		"resources_js_Pages_Profile_Profile_jsx"
+	],
+	"./Profile/Profile.scss": [
+		"./resources/js/Pages/Profile/Profile.scss",
+		"resources_js_Pages_Profile_Profile_scss"
 	]
 };
 function webpackAsyncContext(req) {
@@ -53659,7 +53755,7 @@ module.exports = webpackAsyncContext;
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"_from":"axios@^0.21.1","_id":"axios@0.21.4","_inBundle":false,"_integrity":"sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==","_location":"/axios","_phantomChildren":{},"_requested":{"type":"range","registry":true,"raw":"axios@^0.21.1","name":"axios","escapedName":"axios","rawSpec":"^0.21.1","saveSpec":null,"fetchSpec":"^0.21.1"},"_requiredBy":["#DEV:/","/@inertiajs/inertia"],"_resolved":"https://registry.npmjs.org/axios/-/axios-0.21.4.tgz","_shasum":"c67b90dc0568e5c1cf2b0b858c43ba28e2eda575","_spec":"axios@^0.21.1","_where":"F:\\\\jmm.intern\\\\task\\\\Day 38\\\\inertia-react-laravel-template-main\\\\node_modules\\\\@inertiajs\\\\inertia","author":{"name":"Matt Zabriskie"},"browser":{"./lib/adapters/http.js":"./lib/adapters/xhr.js"},"bugs":{"url":"https://github.com/axios/axios/issues"},"bundleDependencies":false,"bundlesize":[{"path":"./dist/axios.min.js","threshold":"5kB"}],"dependencies":{"follow-redirects":"^1.14.0"},"deprecated":false,"description":"Promise based HTTP client for the browser and node.js","devDependencies":{"coveralls":"^3.0.0","es6-promise":"^4.2.4","grunt":"^1.3.0","grunt-banner":"^0.6.0","grunt-cli":"^1.2.0","grunt-contrib-clean":"^1.1.0","grunt-contrib-watch":"^1.0.0","grunt-eslint":"^23.0.0","grunt-karma":"^4.0.0","grunt-mocha-test":"^0.13.3","grunt-ts":"^6.0.0-beta.19","grunt-webpack":"^4.0.2","istanbul-instrumenter-loader":"^1.0.0","jasmine-core":"^2.4.1","karma":"^6.3.2","karma-chrome-launcher":"^3.1.0","karma-firefox-launcher":"^2.1.0","karma-jasmine":"^1.1.1","karma-jasmine-ajax":"^0.1.13","karma-safari-launcher":"^1.0.0","karma-sauce-launcher":"^4.3.6","karma-sinon":"^1.0.5","karma-sourcemap-loader":"^0.3.8","karma-webpack":"^4.0.2","load-grunt-tasks":"^3.5.2","minimist":"^1.2.0","mocha":"^8.2.1","sinon":"^4.5.0","terser-webpack-plugin":"^4.2.3","typescript":"^4.0.5","url-search-params":"^0.10.0","webpack":"^4.44.2","webpack-dev-server":"^3.11.0"},"homepage":"https://axios-http.com","jsdelivr":"dist/axios.min.js","keywords":["xhr","http","ajax","promise","node"],"license":"MIT","main":"index.js","name":"axios","repository":{"type":"git","url":"git+https://github.com/axios/axios.git"},"scripts":{"build":"NODE_ENV=production grunt build","coveralls":"cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js","examples":"node ./examples/server.js","fix":"eslint --fix lib/**/*.js","postversion":"git push && git push --tags","preversion":"npm test","start":"node ./sandbox/server.js","test":"grunt test","version":"npm run build && grunt version && git add -A dist && git add CHANGELOG.md bower.json package.json"},"typings":"./index.d.ts","unpkg":"dist/axios.min.js","version":"0.21.4"}');
+module.exports = JSON.parse('{"_args":[["axios@0.21.4","D:\\\\KIU\\\\KIU-Finance-Portal\\\\KIU-Finance-Portal"]],"_from":"axios@0.21.4","_id":"axios@0.21.4","_inBundle":false,"_integrity":"sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==","_location":"/axios","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"axios@0.21.4","name":"axios","escapedName":"axios","rawSpec":"0.21.4","saveSpec":null,"fetchSpec":"0.21.4"},"_requiredBy":["#DEV:/","/@inertiajs/inertia"],"_resolved":"https://registry.npmjs.org/axios/-/axios-0.21.4.tgz","_spec":"0.21.4","_where":"D:\\\\KIU\\\\KIU-Finance-Portal\\\\KIU-Finance-Portal","author":{"name":"Matt Zabriskie"},"browser":{"./lib/adapters/http.js":"./lib/adapters/xhr.js"},"bugs":{"url":"https://github.com/axios/axios/issues"},"bundlesize":[{"path":"./dist/axios.min.js","threshold":"5kB"}],"dependencies":{"follow-redirects":"^1.14.0"},"description":"Promise based HTTP client for the browser and node.js","devDependencies":{"coveralls":"^3.0.0","es6-promise":"^4.2.4","grunt":"^1.3.0","grunt-banner":"^0.6.0","grunt-cli":"^1.2.0","grunt-contrib-clean":"^1.1.0","grunt-contrib-watch":"^1.0.0","grunt-eslint":"^23.0.0","grunt-karma":"^4.0.0","grunt-mocha-test":"^0.13.3","grunt-ts":"^6.0.0-beta.19","grunt-webpack":"^4.0.2","istanbul-instrumenter-loader":"^1.0.0","jasmine-core":"^2.4.1","karma":"^6.3.2","karma-chrome-launcher":"^3.1.0","karma-firefox-launcher":"^2.1.0","karma-jasmine":"^1.1.1","karma-jasmine-ajax":"^0.1.13","karma-safari-launcher":"^1.0.0","karma-sauce-launcher":"^4.3.6","karma-sinon":"^1.0.5","karma-sourcemap-loader":"^0.3.8","karma-webpack":"^4.0.2","load-grunt-tasks":"^3.5.2","minimist":"^1.2.0","mocha":"^8.2.1","sinon":"^4.5.0","terser-webpack-plugin":"^4.2.3","typescript":"^4.0.5","url-search-params":"^0.10.0","webpack":"^4.44.2","webpack-dev-server":"^3.11.0"},"homepage":"https://axios-http.com","jsdelivr":"dist/axios.min.js","keywords":["xhr","http","ajax","promise","node"],"license":"MIT","main":"index.js","name":"axios","repository":{"type":"git","url":"git+https://github.com/axios/axios.git"},"scripts":{"build":"NODE_ENV=production grunt build","coveralls":"cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js","examples":"node ./examples/server.js","fix":"eslint --fix lib/**/*.js","postversion":"git push && git push --tags","preversion":"npm test","start":"node ./sandbox/server.js","test":"grunt test","version":"npm run build && grunt version && git add -A dist && git add CHANGELOG.md bower.json package.json"},"typings":"./index.d.ts","unpkg":"dist/axios.min.js","version":"0.21.4"}');
 
 /***/ })
 
@@ -53770,7 +53866,7 @@ module.exports = JSON.parse('{"_from":"axios@^0.21.1","_id":"axios@0.21.4","_inB
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames not based on template
-/******/ 			if ({"resources_js_Pages_Auth_Login_jsx":1,"resources_js_Pages_Dashboard_AllCountries_jsx":1,"resources_js_Pages_Dashboard_Index_jsx":1,"resources_js_Pages_Employees_Index_jsx":1,"resources_js_Pages_Expenses_Details_jsx":1,"resources_js_Pages_Expenses_Index_jsx":1,"resources_js_Pages_Expenses_PaymentRecipt_jsx":1,"resources_js_Pages_FinancialPayments_Details_jsx":1,"resources_js_Pages_FinancialPayments_Index_jsx":1,"resources_js_Pages_PaymentAccount_Index_jsx":1,"resources_js_Pages_StudentWallets_Index_jsx":1}[chunkId]) return "js/" + chunkId + ".js";
+/******/ 			if ({"resources_js_Pages_Auth_Login_jsx":1,"resources_js_Pages_Dashboard_AllCountries_jsx":1,"resources_js_Pages_Dashboard_CountryWiseStudents_jsx":1,"resources_js_Pages_Dashboard_Index_jsx":1,"resources_js_Pages_Dashboard_TabsComponents_Admissions_jsx":1,"resources_js_Pages_Dashboard_TabsComponents_Charts_AdmissionsGraph_jsx":1,"resources_js_Pages_Dashboard_TabsComponents_Charts_AgeGroupBarChart_jsx":1,"resources_js_Pages_Dashboard_TabsComponents_Charts_CountryWiseStudentsBarChart_jsx":1,"resources_js_Pages_Dashboard_TabsComponents_Charts_CountryWiseStudentsChart_jsx":1,"resources_js_Pages_Dashboard_TabsComponents_Charts_CountryWiseTeachersBarChart_jsx":1,"resources_js_Pages_Dashboard_TabsComponents_Charts_EducationalChart_jsx":1,"resources_js_Pages_Dashboard_TabsComponents_Charts_GenderProportionPieChart_jsx":1,"resources_js_Pages_Dashboard_TabsComponents_Charts_QualificationPieChart_jsx":1,"resources_js_Pages_Dashboard_TabsComponents_Charts_ScholarshipProportionPieChart_jsx":1,"resources_js_Pages_Dashboard_TabsComponents_Charts_StudentsPerformanceBarChart_jsx":1,"resources_js_Pages_Dashboard_TabsComponents_Charts_TeachersBarChart_jsx":1,"resources_js_Pages_Dashboard_TabsComponents_Finance_jsx":1,"resources_js_Pages_Dashboard_TabsComponents_Students_jsx":1,"resources_js_Pages_Dashboard_TabsComponents_Teachers_jsx":1,"resources_js_Pages_English_Index_jsx":1,"resources_js_Pages_English_MapChart_jsx":1,"resources_js_Pages_English__english_scss":1,"resources_js_Pages_Profile_Profile_jsx":1,"resources_js_Pages_Profile_Profile_scss":1}[chunkId]) return "js/" + chunkId + ".js";
 /******/ 			// return url for filenames based on template
 /******/ 			return undefined;
 /******/ 		};
